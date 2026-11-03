@@ -3,6 +3,7 @@
 //      GRAPH_API_VERSION (default v26.0). Reads .env when present.
 // Usage: node scripts/publish.mjs [--dry-run] [--id <carouselId>]
 import { readFile, writeFile, readdir, access } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 import path from 'node:path';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1')), '..');
@@ -47,23 +48,22 @@ async function waitReady(containerId) {
   throw new Error(`container ${containerId} not ready in time`);
 }
 
-export function buildCaption(c, defaults) {
-  return [c.caption, defaults.cta, defaults.hashtags].filter(Boolean).join('\n\n');
-}
-
 async function main() {
   await loadDotEnv();
   const args = process.argv.slice(2);
   const dry = args.includes('--dry-run');
   const forced = args.includes('--id') ? args[args.indexOf('--id') + 1] : null;
 
-  const { defaults, carousels } = JSON.parse(await readFile(path.join(ROOT, 'content', 'carousels.json'), 'utf8'));
+  // Fila = content/posts.json (formato v2), na ordem do arquivo.
+  const { hashtags, posts } = JSON.parse(await readFile(path.join(ROOT, 'content', 'posts.json'), 'utf8'));
   let state = { posted: [] };
   try { state = JSON.parse(await readFile(STATE, 'utf8')); } catch {}
   const done = new Set(state.posted.map((p) => p.id));
 
-  const c = forced ? carousels.find((x) => x.id === forced) : carousels.find((x) => !done.has(x.id));
-  if (!c) { console.log('Fila vazia: nenhum carrossel novo para postar.'); process.exitCode = 2; return; }
+  // Só entra na fila quem já foi renderizado (o render só gera posts com todas as imagens).
+  const rendered = (x) => existsSync(path.join(ROOT, 'out', x.id, '01.jpg'));
+  const c = forced ? posts.find((x) => x.id === forced) : posts.find((x) => !done.has(x.id) && rendered(x));
+  if (!c) { console.log('Fila vazia: nenhum carrossel novo pronto para postar.'); process.exitCode = 2; return; }
 
   const dir = path.join(ROOT, 'out', c.id);
   await access(dir).catch(() => { throw new Error(`Slides não renderizados: out/${c.id} (rode scripts/render.mjs)`); });
@@ -72,7 +72,7 @@ async function main() {
 
   const base = (process.env.IMAGE_BASE_URL || '').replace(/\/$/, '');
   const urls = files.map((f) => `${base}/out/${c.id}/${f}`);
-  const caption = buildCaption(c, defaults);
+  const caption = [c.caption, hashtags].filter(Boolean).join('\n\n');
 
   console.log(`Carrossel: ${c.id} (${files.length} slides)`);
   if (dry) { console.log(urls.join('\n')); console.log('---\n' + caption); return; }

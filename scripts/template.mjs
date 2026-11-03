@@ -29,7 +29,7 @@ const BASE_CSS = `
 
 const page = (body, extraCss = '') => `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@500;600&display=block" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@500;600;800&display=block" rel="stylesheet">
 <style>${BASE_CSS}${extraCss}</style></head><body>${body}
 <script>
   // Shrink [data-fit] text until its container stops overflowing.
@@ -44,6 +44,87 @@ const page = (body, extraCss = '') => `<!doctype html><html lang="pt-BR"><head><
     return true;
   };
 </script></body></html>`;
+
+// "[texto]" no título vira destaque amarelo.
+const highlight = (s) => esc(s).replace(/\[(.+?)\]/g, '<em>$1</em>');
+
+// Capa-gancho no estilo das páginas virais: foto em tela cheia + título condensado.
+export function hookCover(c, imageDataUri) {
+  const len = c.title.replace(/[\[\]]/g, '').length;
+  const size = len < 30 ? 132 : len < 50 ? 112 : len < 75 ? 96 : 84;
+  const css = `
+    .slide{background:#000}
+    .slide::after{opacity:.05}
+    .photo{position:absolute;inset:0;background:url('${imageDataUri}') center 30%/cover no-repeat}
+    .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 35%,rgba(0,0,0,.55) 55%,rgba(0,0,0,.92) 75%,#000 100%)}
+    .content{top:auto;bottom:150px;left:64px;right:64px;justify-content:flex-end;text-align:center}
+    .hook{font-family:'Anton',Impact,sans-serif;font-weight:400;font-size:${size}px;line-height:1.02;text-transform:uppercase;
+      color:#fff;letter-spacing:.005em;text-shadow:0 4px 24px rgba(0,0,0,.6)}
+    .hook em{font-style:normal;color:#ffd447}
+    .swipe{margin-top:30px;font-family:'Inter',sans-serif;font-weight:800;font-size:24px;letter-spacing:.22em;color:#fff;opacity:.9}
+    .handle{bottom:70px;color:rgba(255,255,255,.55)}`;
+  return page(
+    `<div class="slide"><div class="photo"></div><div class="shade"></div>
+      <div class="content">
+        <h1 class="hook" data-fit data-min="64">${highlight(c.title)}</h1>
+        <div class="swipe">DESLIZE PARA VER &rarr;</div>
+      </div>
+      <div class="handle">${HANDLE}</div></div>`,
+    css
+  );
+}
+
+// Slide de frase no padrão viral: imagem própria em tela cheia + texto branco embaixo.
+export function imageQuoteSlide(q, i, total, imageDataUri) {
+  const len = q.text.length;
+  const size = len < 50 ? 64 : len < 90 ? 56 : len < 140 ? 50 : 44;
+  const css = `
+    .slide{background:#000}
+    .slide::after{opacity:.04}
+    .photo{position:absolute;inset:0;background:url('${imageDataUri}') center 25%/cover no-repeat}
+    .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.25) 0%,rgba(0,0,0,0) 18%,rgba(0,0,0,0) 40%,rgba(0,0,0,.7) 62%,rgba(0,0,0,.94) 100%)}
+    .top{position:absolute;top:34px;left:0;right:0;text-align:center;font-family:'Inter',sans-serif;font-weight:600;font-size:20px;letter-spacing:.06em;color:rgba(255,255,255,.6)}
+    .content{top:auto;bottom:96px;left:72px;right:72px;justify-content:flex-end;text-align:center}
+    .n{font-family:'Inter',sans-serif;font-weight:800;font-size:24px;letter-spacing:.2em;color:#ffd447;margin-bottom:22px}
+    .q{font-family:'Inter',sans-serif;font-weight:700;font-size:${size}px;line-height:1.24;color:#fff;
+      text-shadow:0 3px 18px rgba(0,0,0,.85),0 1px 3px rgba(0,0,0,.9)}
+    .a{margin-top:28px;font-family:'Inter',sans-serif;font-weight:800;font-size:26px;letter-spacing:.16em;text-transform:uppercase;color:#ffd447}
+    .s{margin-top:6px;font-family:'Inter',sans-serif;font-weight:500;font-size:22px;color:rgba(255,255,255,.6)}`;
+  return page(
+    `<div class="slide"><div class="photo"></div><div class="shade"></div>
+      <div class="top">${HANDLE}</div>
+      <div class="content">
+        <div class="n">${i} / ${total}</div>
+        <p class="q" data-fit data-min="36">&ldquo;${esc(q.text)}&rdquo;</p>
+        <div class="a">${esc(q.author)}</div>
+        ${q.source ? `<div class="s">${esc(q.source)}</div>` : ''}
+      </div></div>`,
+    css
+  );
+}
+
+// Último slide: gatilho de "siga ou nunca mais vai encontrar".
+export function followSlide(imageDataUri) {
+  const css = `
+    .slide{background:#000}
+    .photo{position:absolute;inset:0;background:url('${imageDataUri}') center/cover no-repeat;filter:saturate(.6)}
+    .shade{position:absolute;inset:0;background:rgba(0,0,0,.72)}
+    .content{left:80px;right:80px;align-items:center;text-align:center}
+    .big{font-family:'Anton',Impact,sans-serif;font-size:96px;line-height:1.05;text-transform:uppercase;color:#fff}
+    .big em{font-style:normal;color:#ffd447}
+    .sub{margin-top:40px;font-family:'Inter',sans-serif;font-weight:600;font-size:34px;line-height:1.4;color:rgba(255,255,255,.88)}
+    .btn{margin-top:56px;display:inline-block;padding:22px 44px;border:3px solid #ffd447;border-radius:999px;
+      font-family:'Inter',sans-serif;font-weight:800;font-size:34px;letter-spacing:.06em;color:#ffd447}`;
+  return page(
+    `<div class="slide"><div class="photo"></div><div class="shade"></div>
+      <div class="content">
+        <h2 class="big" data-fit data-min="60">Esse post não caiu na sua tela <em>por acaso.</em></h2>
+        <p class="sub">Se você não seguir agora, provavelmente nunca mais vai encontrar esta página.</p>
+        <div class="btn">SIGA ${HANDLE}</div>
+      </div></div>`,
+    css
+  );
+}
 
 export function coverSlide(c) {
   const css = `
@@ -66,10 +147,14 @@ export function coverSlide(c) {
   );
 }
 
-export function quoteSlide(q, i, total) {
+export function quoteSlide(q, i, total, bgDataUri = null) {
   const len = q.text.length;
   const size = len < 60 ? 86 : len < 110 ? 74 : len < 170 ? 62 : 54;
-  const css = `
+  const bgCss = bgDataUri
+    ? `.slide{background:linear-gradient(180deg,rgba(6,6,7,.78),rgba(6,6,7,.86)),url('${bgDataUri}') center/cover no-repeat}
+       .quote{text-shadow:0 2px 18px rgba(0,0,0,.7)}`
+    : '';
+  const css = `${bgCss}
     .num{position:absolute;left:120px;top:122px}
     .open{font-size:190px;line-height:.6;color:var(--gold);font-weight:700;height:84px}
     .quote{font-style:italic;font-weight:600;font-size:${size}px;line-height:1.18}

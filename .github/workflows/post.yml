@@ -35,7 +35,7 @@ jobs:
 
       - name: Renderizar slides que faltam
         run: |
-          node scripts/render.mjs --missing
+          node scripts/render2.mjs --missing
           if [ -n "$(git status --porcelain out)" ]; then
             git config user.name "autopost-bot"
             git config user.email "autopost-bot@users.noreply.github.com"

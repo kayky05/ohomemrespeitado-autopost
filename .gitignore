@@ -2,3 +2,8 @@
 .env.*
 !.env.example
 node_modules/
+out/*.jpg
+brand/quotes/
+brand/covers/
+brand/bg/
+content/image-jobs.json

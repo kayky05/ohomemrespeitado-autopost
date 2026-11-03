@@ -1,0 +1,36 @@
+{
+  "style": "Photorealistic cinematic image, vertical 2:3 portrait. Dramatic high-contrast lighting, rich shadows, shallow depth of field, film grain. Main subject in the upper 60% of the frame; the bottom 35% must be darker and visually calm (space for a headline added later). Absolutely NO text, letters, numbers, logos or watermarks anywhere. No real celebrities. No nudity.",
+  "covers": {
+    "002-marco-aurelio": "A weathered white marble bust of a bearded Roman emperor with a fine crack running across his face, lit by a single warm light from the side against a pitch black background, dust particles floating.",
+    "003-dominio-proprio": "A calm man in a dark tailored suit standing still while holding a heavy chain leash of a huge snarling black wolf at his side, foggy night street, wet cobblestones, cold blue light.",
+    "004-seneca-tempo": "A human skeleton wearing an elegant black suit and tie, sitting at an old wooden desk, looking at a gold pocket watch in its bony hand, single desk lamp, dark study room, unsettling but classy.",
+    "005-epicteto": "Close-up of strong male hands breaking free from heavy rusty iron chains, chain links snapping and flying, sparks and dust, dark dungeon background, dramatic rim light.",
+    "006-sun-tzu": "An ancient Chinese general in lacquered armor standing on a misty hilltop at dawn, looking down over a vast army in the valley, red banners, epic scale, cinematic.",
+    "007-respeito": "A stunning elegant woman in a fitted red evening dress sitting at a candle-lit restaurant table, looking with admiration at a well-dressed man in a dark suit seen from behind in the foreground, warm moody light, tasteful and classy.",
+    "008-disciplina": "A muscular shirtless man doing heavy dumbbell training alone in a dark underground gym at 5am, sweat glistening, single overhead light, intense focus, gritty atmosphere.",
+    "009-amizades": "A man in a casual shirt with an exaggerated, unsettling fake wide smile and cold dead eyes, giving a thumbs up to the camera, dim greenish fluorescent office light, creepy uncanny portrait.",
+    "010-adversidade": "A lone man in a long dark coat walking against a violent storm on an empty coastal road, heavy rain and wind, lightning in the distance, seen from behind.",
+    "011-confucio": "Portrait of a wise elderly Chinese sage with a long white beard and traditional robes, sitting in an ancient wooden library with scrolls, warm candle light, deep serene gaze.",
+    "012-raiva": "Extreme close-up of a furious man's face, clenched jaw, veins on forehead, red skin, eyes burning with rage, dark background with red light, intense.",
+    "013-musashi": "A lone samurai in a dark kimono standing in heavy rain at night in a bamboo forest, hand on the hilt of his katana, lantern light, cinematic.",
+    "014-lao-tzu": "A calm man in a dark suit sitting perfectly still in meditation in the middle of a chaotic crowded city street at night, people blurred rushing around him, neon reflections.",
+    "015-nietzsche": "Dramatic black and white portrait of a stern 19th-century German philosopher with a huge thick mustache and intense deep-set eyes, high contrast, old photograph texture.",
+    "016-maquiavel": "A Renaissance king sitting on a golden throne in a dark hall, smiling slightly, hiding a dagger behind his back in his other hand, candles, oil painting lighting.",
+    "017-autoconhecimento": "A man in a white shirt standing in front of a bathroom mirror at night, but his reflection is a different, darker and older version of himself staring back, eerie cinematic.",
+    "018-arena": "A battered gladiator kneeling in the dust of a Roman arena, face dirty with sweat, dust and blood, crowd roaring in the blurred background, golden sunlight beams.",
+    "019-acao": "A young man lying on a couch in a dark room scrolling his phone, face lit by the screen, empty fast-food boxes around, while through the window behind him another man runs in the sunrise.",
+    "020-mudanca": "A man standing alone under a single street lamp in the rain at night, looking up at the sky as the clouds begin to open, first light breaking through, hopeful mood."
+  },
+  "backgrounds": {
+    "bg01-leao": "Close-up of a male lion's face in the dark, golden eyes, side light, black background.",
+    "bg02-xadrez": "A black chess king piece standing alone on a chessboard among fallen pieces, low angle, dramatic light.",
+    "bg03-estatua": "Classical Greek marble statue of a man, side profile, dark museum, single spotlight.",
+    "bg04-lobo": "A lone grey wolf on a snowy rock at night under the moon, mist.",
+    "bg05-terno": "A man in a dark suit seen from behind looking at a city skyline at night from a high window.",
+    "bg06-montanha": "A man standing on a mountain summit at dawn above the clouds, tiny figure, epic scale.",
+    "bg07-espada": "An old sword stuck in the ground on a battlefield at dusk, smoke and embers.",
+    "bg08-biblioteca": "An ancient library with tall dusty bookshelves and a single beam of light, empty reading chair.",
+    "bg09-elmo": "A dented Roman gladiator helmet resting on sand, dramatic side light, dust in the air.",
+    "bg10-chuva": "Rain drops on a dark window at night with blurred city lights behind."
+  }
+}
