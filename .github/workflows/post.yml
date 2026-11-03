@@ -1,0 +1,61 @@
+name: Postar carrossel
+
+on:
+  schedule:
+    # Horário de Brasília (UTC-3): 08h, 12h, 18h e 21h
+    - cron: '0 11 * * *'
+    - cron: '0 15 * * *'
+    - cron: '0 21 * * *'
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    inputs:
+      id:
+        description: 'ID do carrossel (vazio = próximo da fila)'
+        required: false
+
+concurrency:
+  group: postar
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+
+      - name: Renderizar slides que faltam
+        run: |
+          node scripts/render.mjs --missing
+          if [ -n "$(git status --porcelain out)" ]; then
+            git config user.name "autopost-bot"
+            git config user.email "autopost-bot@users.noreply.github.com"
+            git add out && git commit -m "render: novos slides" && git push
+          fi
+
+      - name: Publicar no Instagram
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          GRAPH_API_VERSION: v26.0
+        run: |
+          export IMAGE_BASE_URL="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/$(git rev-parse HEAD)"
+          if [ -n "${{ inputs.id }}" ]; then node scripts/publish.mjs --id "${{ inputs.id }}"; else node scripts/publish.mjs; fi
+
+      - name: Salvar estado
+        if: success()
+        run: |
+          git config user.name "autopost-bot"
+          git config user.email "autopost-bot@users.noreply.github.com"
+          git add state/posted.json
+          git commit -m "post: $(node -e "const s=require('./state/posted.json');console.log(s.posted.at(-1).id)")" || exit 0
+          git pull --rebase && git push

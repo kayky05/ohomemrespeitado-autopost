@@ -1,0 +1,248 @@
+{
+  "defaults": {
+    "hashtags": "#ohomemrespeitado #estoicismo #filosofia #sabedoria #disciplina #mentalidade #reflexao #frases #autoconhecimento #homem",
+    "cta": "Salve para reler quando precisar e envie para um homem que precisa ler isso."
+  },
+  "carousels": [
+    {
+      "id": "001-silencio",
+      "cover": { "kicker": "Leia em silêncio", "title": "5 frases sobre o silêncio que todo homem deveria ler" },
+      "quotes": [
+        { "text": "Quem sabe não fala; quem fala não sabe.", "author": "Lao Tzu", "source": "Tao Te Ching, 56" },
+        { "text": "Até o tolo, quando se cala, é tido por sábio.", "author": "Provérbios 17:28", "source": "" },
+        { "text": "Temos dois ouvidos e uma só boca para ouvirmos mais e falarmos menos.", "author": "Zenão de Cítio", "source": "segundo Diógenes Laércio" },
+        { "text": "Dê a todos o seu ouvido, mas a poucos a sua voz.", "author": "William Shakespeare", "source": "Hamlet" },
+        { "text": "Todo homem seja pronto para ouvir, tardio para falar, tardio para se irar.", "author": "Tiago 1:19", "source": "" }
+      ],
+      "caption": "O homem que fala pouco é ouvido quando fala.\n\nSilêncio não é fraqueza. É controle."
+    },
+    {
+      "id": "002-marco-aurelio",
+      "cover": { "kicker": "Marco Aurélio", "title": "O imperador mais poderoso do mundo escrevia isso só para si mesmo" },
+      "quotes": [
+        { "text": "Não perca mais tempo discutindo como deve ser um homem bom. Seja um.", "author": "Marco Aurélio", "source": "Meditações, 10.16" },
+        { "text": "A melhor vingança é não ser como o seu inimigo.", "author": "Marco Aurélio", "source": "Meditações, 6.6" },
+        { "text": "O que impede a ação faz a ação avançar. O que está no caminho se torna o caminho.", "author": "Marco Aurélio", "source": "Meditações, 5.20" },
+        { "text": "Se não é certo, não faça. Se não é verdade, não diga.", "author": "Marco Aurélio", "source": "Meditações, 12.17" },
+        { "text": "A alma se tinge da cor dos seus pensamentos.", "author": "Marco Aurélio", "source": "Meditações, 5.16" }
+      ],
+      "caption": "Ele governava Roma e ainda assim escrevia lembretes para não se perder de si mesmo.\n\nQual dessas você precisava ouvir hoje?"
+    },
+    {
+      "id": "003-dominio-proprio",
+      "cover": { "kicker": "Domínio próprio", "title": "A maior vitória de um homem é sobre si mesmo" },
+      "quotes": [
+        { "text": "A primeira e melhor das vitórias é a vitória sobre si mesmo.", "author": "Platão", "source": "Leis" },
+        { "text": "Melhor é o que domina o seu espírito do que o que conquista uma cidade.", "author": "Provérbios 16:32", "source": "" },
+        { "text": "Quem vence os outros é forte. Quem vence a si mesmo é poderoso.", "author": "Lao Tzu", "source": "Tao Te Ching, 33" },
+        { "text": "Nenhum homem é livre se não é senhor de si mesmo.", "author": "Epicteto", "source": "" },
+        { "text": "Errar e não se corrigir: isso, sim, é errar.", "author": "Confúcio", "source": "Analectos, 15.30" }
+      ],
+      "caption": "Ninguém respeita o homem que não governa a si mesmo.\n\nComece por dentro."
+    },
+    {
+      "id": "004-seneca-tempo",
+      "cover": { "kicker": "Sêneca", "title": "Sêneca avisou há 2.000 anos o que você está fazendo com o seu tempo" },
+      "quotes": [
+        { "text": "Não é que tenhamos pouco tempo. É que desperdiçamos muito.", "author": "Sêneca", "source": "Sobre a brevidade da vida" },
+        { "text": "Enquanto adiamos, a vida passa.", "author": "Sêneca", "source": "Cartas a Lucílio, 1" },
+        { "text": "Sofremos mais na imaginação do que na realidade.", "author": "Sêneca", "source": "Cartas a Lucílio, 13" },
+        { "text": "Nenhum vento é favorável para quem não sabe a que porto se dirige.", "author": "Sêneca", "source": "Cartas a Lucílio, 71" },
+        { "text": "Quem está em toda parte não está em parte alguma.", "author": "Sêneca", "source": "Cartas a Lucílio, 2" }
+      ],
+      "caption": "O tempo é a única coisa que você nunca recupera.\n\nOnde você está gastando o seu?"
+    },
+    {
+      "id": "005-epicteto",
+      "cover": { "kicker": "Epicteto", "title": "Ele nasceu escravo e se tornou um dos homens mais livres da história" },
+      "quotes": [
+        { "text": "Não são as coisas que perturbam os homens, mas as opiniões que eles têm sobre as coisas.", "author": "Epicteto", "source": "Manual, 5" },
+        { "text": "Primeiro diga a si mesmo o que você quer ser. Depois faça o que precisa ser feito.", "author": "Epicteto", "source": "Discursos, 3.23" },
+        { "text": "É impossível aprender aquilo que você acha que já sabe.", "author": "Epicteto", "source": "Discursos, 2.17" },
+        { "text": "Se falarem mal de você, não se defenda. Diga: ele não conhecia meus outros defeitos, senão teria falado deles também.", "author": "Epicteto", "source": "Manual, 33" },
+        { "text": "Nenhum homem é livre se não é senhor de si mesmo.", "author": "Epicteto", "source": "" }
+      ],
+      "caption": "Tiraram tudo dele, menos a mente.\n\nE foi o suficiente."
+    },
+    {
+      "id": "006-sun-tzu",
+      "cover": { "kicker": "Sun Tzu", "title": "5 lições de A Arte da Guerra para quem vive em batalha todos os dias" },
+      "quotes": [
+        { "text": "Conheça o inimigo e conheça a si mesmo, e em cem batalhas você nunca correrá perigo.", "author": "Sun Tzu", "source": "A Arte da Guerra" },
+        { "text": "A suprema arte da guerra é vencer o inimigo sem lutar.", "author": "Sun Tzu", "source": "A Arte da Guerra" },
+        { "text": "O guerreiro vitorioso vence primeiro e depois vai à guerra. O derrotado vai à guerra e depois procura vencer.", "author": "Sun Tzu", "source": "A Arte da Guerra" },
+        { "text": "Que seus planos sejam escuros e impenetráveis como a noite. E, quando agir, caia como um raio.", "author": "Sun Tzu", "source": "A Arte da Guerra" },
+        { "text": "Se você conhece a si mesmo, mas não o inimigo, para cada vitória sofrerá também uma derrota.", "author": "Sun Tzu", "source": "A Arte da Guerra" }
+      ],
+      "caption": "A batalha é vencida antes de começar.\n\nPlaneje em silêncio."
+    },
+    {
+      "id": "007-respeito",
+      "cover": { "kicker": "Respeito", "title": "Respeito não se pede. Se constrói." },
+      "quotes": [
+        { "text": "Mais vale o bom nome do que muitas riquezas.", "author": "Provérbios 22:1", "source": "" },
+        { "text": "O caráter de um homem é o seu destino.", "author": "Heráclito", "source": "" },
+        { "text": "Bem feito é melhor do que bem dito.", "author": "Benjamin Franklin", "source": "Almanaque do Pobre Ricardo" },
+        { "text": "O homem superior é modesto no falar, mas vai além nas ações.", "author": "Confúcio", "source": "Analectos, 14.27" },
+        { "text": "Todos veem o que você parece. Poucos sentem o que você é.", "author": "Nicolau Maquiavel", "source": "O Príncipe" }
+      ],
+      "caption": "Seu nome chega antes de você.\n\nCuide do que ele carrega."
+    },
+    {
+      "id": "008-disciplina",
+      "cover": { "kicker": "Disciplina", "title": "Motivação acaba. Disciplina fica." },
+      "quotes": [
+        { "text": "Não temo o homem que praticou 10.000 chutes uma vez, mas o que praticou um chute 10.000 vezes.", "author": "Bruce Lee", "source": "" },
+        { "text": "Nos tornamos justos praticando atos justos, e corajosos praticando atos de coragem.", "author": "Aristóteles", "source": "Ética a Nicômaco, II" },
+        { "text": "Uma andorinha só não faz verão, nem um só dia.", "author": "Aristóteles", "source": "Ética a Nicômaco, I" },
+        { "text": "Quem quer aprender a voar precisa primeiro aprender a ficar de pé, andar, correr e escalar. Não se aprende a voar voando.", "author": "Friedrich Nietzsche", "source": "Assim falou Zaratustra" },
+        { "text": "Não faça nada que não tenha utilidade.", "author": "Miyamoto Musashi", "source": "O Livro dos Cinco Anéis" }
+      ],
+      "caption": "Ninguém vê os anos de repetição.\n\nTodo mundo vê o resultado."
+    },
+    {
+      "id": "009-amizades",
+      "cover": { "kicker": "Amizades", "title": "Diga com quem andas e eu te direi quem serás" },
+      "quotes": [
+        { "text": "Como o ferro afia o ferro, assim o homem afia o seu companheiro.", "author": "Provérbios 27:17", "source": "" },
+        { "text": "Quem anda com os sábios será sábio.", "author": "Provérbios 13:20", "source": "" },
+        { "text": "Conviva com quem pode torná-lo melhor.", "author": "Sêneca", "source": "Cartas a Lucílio, 7" },
+        { "text": "Ao ver um homem de valor, pense em como se igualar a ele. Ao ver um homem sem valor, examine a si mesmo.", "author": "Confúcio", "source": "Analectos, 4.17" },
+        { "text": "A primeira forma de avaliar a inteligência de um líder é olhar para os homens que ele tem ao seu redor.", "author": "Nicolau Maquiavel", "source": "O Príncipe" }
+      ],
+      "caption": "Seu círculo é o seu futuro.\n\nMarque quem afia você."
+    },
+    {
+      "id": "010-adversidade",
+      "cover": { "kicker": "Adversidade", "title": "Para os dias em que tudo parece estar contra você" },
+      "quotes": [
+        { "text": "Quem tem um porquê para viver suporta quase qualquer como.", "author": "Friedrich Nietzsche", "source": "Crepúsculo dos Ídolos" },
+        { "text": "O que não me mata me fortalece.", "author": "Friedrich Nietzsche", "source": "Crepúsculo dos Ídolos" },
+        { "text": "O que está no caminho se torna o caminho.", "author": "Marco Aurélio", "source": "Meditações, 5.20" },
+        { "text": "Tudo pode ser tirado de um homem, menos uma coisa: a liberdade de escolher a própria atitude.", "author": "Viktor Frankl", "source": "Em busca de sentido" },
+        { "text": "Sofremos mais na imaginação do que na realidade.", "author": "Sêneca", "source": "Cartas a Lucílio, 13" }
+      ],
+      "caption": "A tempestade não escolhe quem atinge.\n\nVocê escolhe como atravessa."
+    },
+    {
+      "id": "011-confucio",
+      "cover": { "kicker": "Confúcio", "title": "5 ensinamentos de Confúcio que separam homens comuns de homens superiores" },
+      "quotes": [
+        { "text": "O homem superior exige de si mesmo. O homem inferior exige dos outros.", "author": "Confúcio", "source": "Analectos, 15.21" },
+        { "text": "Estudar sem pensar é inútil. Pensar sem estudar é perigoso.", "author": "Confúcio", "source": "Analectos, 2.15" },
+        { "text": "O homem superior é modesto no falar, mas vai além nas ações.", "author": "Confúcio", "source": "Analectos, 14.27" },
+        { "text": "Errar e não se corrigir: isso, sim, é errar.", "author": "Confúcio", "source": "Analectos, 15.30" },
+        { "text": "Ao ver um homem de valor, pense em como se igualar a ele.", "author": "Confúcio", "source": "Analectos, 4.17" }
+      ],
+      "caption": "Mais de 2.500 anos depois, continua atual.\n\nQual é a sua favorita?"
+    },
+    {
+      "id": "012-raiva",
+      "cover": { "kicker": "Controle emocional", "title": "Quem te irrita te controla" },
+      "quotes": [
+        { "text": "Qualquer um pode ficar com raiva. Difícil é ficar com raiva da pessoa certa, na medida certa, na hora certa e do jeito certo.", "author": "Aristóteles", "source": "Ética a Nicômaco" },
+        { "text": "A melhor vingança é não ser como o seu inimigo.", "author": "Marco Aurélio", "source": "Meditações, 6.6" },
+        { "text": "Melhor é o que domina o seu espírito do que o que conquista uma cidade.", "author": "Provérbios 16:32", "source": "" },
+        { "text": "Não são as coisas que perturbam os homens, mas as opiniões que eles têm sobre as coisas.", "author": "Epicteto", "source": "Manual, 5" },
+        { "text": "Todo homem seja pronto para ouvir, tardio para falar, tardio para se irar.", "author": "Tiago 1:19", "source": "" }
+      ],
+      "caption": "Perder a cabeça é entregar o controle para quem te provocou.\n\nRespire. Responda depois."
+    },
+    {
+      "id": "013-musashi",
+      "cover": { "kicker": "Miyamoto Musashi", "title": "As regras do samurai que nunca perdeu um duelo" },
+      "quotes": [
+        { "text": "Aceite tudo exatamente como é.", "author": "Miyamoto Musashi", "source": "Dokkodo" },
+        { "text": "Não lamente o que você fez.", "author": "Miyamoto Musashi", "source": "Dokkodo" },
+        { "text": "Pense pouco em si mesmo e profundamente no mundo.", "author": "Miyamoto Musashi", "source": "Dokkodo" },
+        { "text": "Não busque o prazer pelo prazer.", "author": "Miyamoto Musashi", "source": "Dokkodo" },
+        { "text": "Não faça nada que não tenha utilidade.", "author": "Miyamoto Musashi", "source": "O Livro dos Cinco Anéis" }
+      ],
+      "caption": "Mais de 60 duelos. Nenhuma derrota.\n\nE antes de morrer, deixou essas regras."
+    },
+    {
+      "id": "014-lao-tzu",
+      "cover": { "kicker": "Lao Tzu", "title": "Lições do Tao para um homem em paz e inabalável" },
+      "quotes": [
+        { "text": "Quem conhece os outros é inteligente. Quem conhece a si mesmo é iluminado.", "author": "Lao Tzu", "source": "Tao Te Ching, 33" },
+        { "text": "Uma jornada de mil léguas começa com um único passo.", "author": "Lao Tzu", "source": "Tao Te Ching, 64" },
+        { "text": "Quem sabe não fala; quem fala não sabe.", "author": "Lao Tzu", "source": "Tao Te Ching, 56" },
+        { "text": "Quem vence os outros é forte. Quem vence a si mesmo é poderoso.", "author": "Lao Tzu", "source": "Tao Te Ching, 33" },
+        { "text": "Quem sabe que tem o suficiente é rico.", "author": "Lao Tzu", "source": "Tao Te Ching, 33" }
+      ],
+      "caption": "Força de verdade é calma.\n\nQual dessas você vai levar para hoje?"
+    },
+    {
+      "id": "015-nietzsche",
+      "cover": { "kicker": "Friedrich Nietzsche", "title": "Frases de Nietzsche que vão te fazer repensar a sua vida" },
+      "quotes": [
+        { "text": "Quem tem um porquê para viver suporta quase qualquer como.", "author": "Friedrich Nietzsche", "source": "Crepúsculo dos Ídolos" },
+        { "text": "Quem luta com monstros deve tomar cuidado para não se tornar um monstro.", "author": "Friedrich Nietzsche", "source": "Além do Bem e do Mal, 146" },
+        { "text": "Torna-te quem tu és.", "author": "Friedrich Nietzsche", "source": "A Gaia Ciência, 270" },
+        { "text": "O que não me mata me fortalece.", "author": "Friedrich Nietzsche", "source": "Crepúsculo dos Ídolos" },
+        { "text": "Não se aprende a voar voando.", "author": "Friedrich Nietzsche", "source": "Assim falou Zaratustra" }
+      ],
+      "caption": "Desconfortável. Necessário.\n\nComente a que mais mexeu com você."
+    },
+    {
+      "id": "016-maquiavel",
+      "cover": { "kicker": "Maquiavel", "title": "O livro que reis e líderes leem escondido" },
+      "quotes": [
+        { "text": "Todos veem o que você parece. Poucos sentem o que você é.", "author": "Nicolau Maquiavel", "source": "O Príncipe" },
+        { "text": "É muito mais seguro ser temido do que amado, quando não se pode ser as duas coisas.", "author": "Nicolau Maquiavel", "source": "O Príncipe" },
+        { "text": "Não há outra forma de se proteger da bajulação senão fazer os homens entenderem que dizer a verdade não ofende você.", "author": "Nicolau Maquiavel", "source": "O Príncipe" },
+        { "text": "Quem não percebe os males quando eles nascem não é verdadeiramente sábio.", "author": "Nicolau Maquiavel", "source": "O Príncipe" },
+        { "text": "A primeira forma de avaliar a inteligência de um líder é olhar para os homens que ele tem ao seu redor.", "author": "Nicolau Maquiavel", "source": "O Príncipe" }
+      ],
+      "caption": "Escrito em 1513. Ainda incomoda.\n\nVocê concorda com a segunda?"
+    },
+    {
+      "id": "017-autoconhecimento",
+      "cover": { "kicker": "Autoconhecimento", "title": "Antes de conquistar o mundo, conheça a si mesmo" },
+      "quotes": [
+        { "text": "Uma vida não examinada não vale a pena ser vivida.", "author": "Sócrates", "source": "Apologia, de Platão" },
+        { "text": "Quem conhece os outros é inteligente. Quem conhece a si mesmo é iluminado.", "author": "Lao Tzu", "source": "Tao Te Ching, 33" },
+        { "text": "Primeiro diga a si mesmo o que você quer ser. Depois faça o que precisa ser feito.", "author": "Epicteto", "source": "Discursos, 3.23" },
+        { "text": "Seja fiel a si mesmo.", "author": "William Shakespeare", "source": "Hamlet" },
+        { "text": "Torna-te quem tu és.", "author": "Friedrich Nietzsche", "source": "A Gaia Ciência, 270" }
+      ],
+      "caption": "A pergunta mais difícil não é sobre o mundo.\n\nÉ sobre você."
+    },
+    {
+      "id": "018-arena",
+      "cover": { "kicker": "Theodore Roosevelt", "title": "Para quem é criticado por quem nunca tentou nada" },
+      "quotes": [
+        { "text": "Não é o crítico que importa, nem aquele que aponta onde o homem forte tropeçou.", "author": "Theodore Roosevelt", "source": "O Homem na Arena, 1910" },
+        { "text": "O crédito pertence ao homem que está de fato na arena, com o rosto sujo de poeira, suor e sangue.", "author": "Theodore Roosevelt", "source": "O Homem na Arena, 1910" },
+        { "text": "Que, se falhar, ao menos falhe ousando grandemente.", "author": "Theodore Roosevelt", "source": "O Homem na Arena, 1910" },
+        { "text": "Seu lugar nunca será junto às almas frias e tímidas que não conhecem nem vitória nem derrota.", "author": "Theodore Roosevelt", "source": "O Homem na Arena, 1910" },
+        { "text": "Fale com mansidão e carregue um grande porrete; você irá longe.", "author": "Theodore Roosevelt", "source": "" }
+      ],
+      "caption": "Quem está na arquibancada sempre tem opinião.\n\nQuem está na arena tem cicatrizes."
+    },
+    {
+      "id": "019-acao",
+      "cover": { "kicker": "Ação", "title": "Pare de planejar a vida perfeita e comece" },
+      "quotes": [
+        { "text": "Não perca mais tempo discutindo como deve ser um homem bom. Seja um.", "author": "Marco Aurélio", "source": "Meditações, 10.16" },
+        { "text": "Enquanto adiamos, a vida passa.", "author": "Sêneca", "source": "Cartas a Lucílio, 1" },
+        { "text": "Uma jornada de mil léguas começa com um único passo.", "author": "Lao Tzu", "source": "Tao Te Ching, 64" },
+        { "text": "Você pode adiar, mas o tempo não.", "author": "Benjamin Franklin", "source": "Almanaque do Pobre Ricardo" },
+        { "text": "Bem feito é melhor do que bem dito.", "author": "Benjamin Franklin", "source": "Almanaque do Pobre Ricardo" }
+      ],
+      "caption": "O momento certo não vai chegar.\n\nVocê cria ele."
+    },
+    {
+      "id": "020-mudanca",
+      "cover": { "kicker": "Heráclito", "title": "Nada é permanente. Nem a sua fase ruim." },
+      "quotes": [
+        { "text": "Nenhum homem entra duas vezes no mesmo rio, pois não é o mesmo rio e não é o mesmo homem.", "author": "Heráclito", "source": "" },
+        { "text": "O caráter de um homem é o seu destino.", "author": "Heráclito", "source": "" },
+        { "text": "Aceite tudo exatamente como é.", "author": "Miyamoto Musashi", "source": "Dokkodo" },
+        { "text": "O que está no caminho se torna o caminho.", "author": "Marco Aurélio", "source": "Meditações, 5.20" },
+        { "text": "Seja água, meu amigo.", "author": "Bruce Lee", "source": "" }
+      ],
+      "caption": "Tudo passa.\n\nO que você constrói enquanto passa é o que fica."
+    }
+  ]
+}
