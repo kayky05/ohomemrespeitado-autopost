@@ -9,7 +9,7 @@ const esc = (s = '') =>
 const lines = (s = '') => esc(s).replace(/\n/g, '<br>');
 
 const page = (body, css = '') => `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Figtree:wght@500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Gochi+Hand&display=block" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Figtree:wght@500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Gochi+Hand&family=VT323&display=block" rel="stylesheet">
 <style>
   *{margin:0;padding:0;box-sizing:border-box}
   html,body{width:${W}px;height:${H}px;overflow:hidden;background:#000}
@@ -120,7 +120,7 @@ export function bubbles({ title = '', bubbles: list = [] }, img) {
       ${title ? `<div class="title">${lines(title)}</div>` : ''}
       ${list.map((b) => `<div class="b" style="left:${b.x}%;top:${b.y}%">${lines(b.text)}</div>`).join('')}
       <div class="wm" style="bottom:30px;right:40px;font-size:18px">${HANDLE}</div></div>`,
-    `.title{position:absolute;top:46px;left:70px;right:70px;text-align:center;font-family:'Libre Caslon Text',serif;font-weight:700;font-size:46px;line-height:1.15;color:#1a140c;text-shadow:0 0 22px rgba(255,240,215,.9)}
+    `.title{position:absolute;top:44px;left:50%;transform:translateX(-50%);width:max-content;max-width:900px;text-align:center;font-family:'Libre Caslon Text',serif;font-weight:700;font-size:44px;line-height:1.2;color:#1a140c;background:rgba(250,242,226,.94);padding:16px 30px;border-radius:14px;box-shadow:0 6px 24px rgba(0,0,0,.35)}
      .b{position:absolute;transform:translate(-50%,-50%);max-width:420px;background:#fff;color:#111;font-family:'Figtree',sans-serif;font-weight:700;font-size:34px;line-height:1.2;
         padding:18px 26px;border-radius:40px;border:3px solid #111;text-align:center;box-shadow:0 4px 0 #111}`
   );

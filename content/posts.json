@@ -291,6 +291,464 @@
         "image": "A surreal glowing red human silhouette made of veins and light walking away into darkness."
       },
       "caption": "Seu corpo trabalha 24 horas por dia e você nem percebe. 🧠❤️\n\nQual dessas você não sabia? Comenta o número."
+    },
+    {
+      "id": "201-status-palhaco",
+      "format": "status",
+      "visual": "Moody cinematic photography, muted desaturated colors, soft film grain, lonely atmosphere, natural light.",
+      "cover": {
+        "text": "Coloque isso no status e suma...",
+        "style": "serif",
+        "sub": "leia com atenção...",
+        "image": "Unsettling portrait of a creepy mime clown with chalk-white face paint, black smeared lips, sad painted eyebrows and a small black bowler hat, holding a single finger to his lips in a dark carnival alley, cinematic, original character design."
+      },
+      "slides": [
+        {
+          "text": "Me ensinaram a respeitar todo mundo.\nInclusive quem não me respeita: de longe.",
+          "image": "An old man reading a newspaper alone on a street curb at dawn, worn clothes, calm dignity."
+        },
+        {
+          "text": "Homem que tem palavra\nnão precisa de contrato.",
+          "image": "Two rough hands shaking firmly over an old wooden table, warm window light."
+        },
+        {
+          "text": "Quem te inveja em silêncio\nte aplaude em público.",
+          "image": "A crowd clapping in a dim hall, one man in the back with crossed arms and a cold stare."
+        },
+        {
+          "text": "Não é sobre vencer todo mundo.\nÉ sobre não perder pra si mesmo.",
+          "image": "A tired boxer sitting alone on the corner stool of an empty ring, head down."
+        },
+        {
+          "text": "Dá tempo ao tempo.\nEle mostra quem é quem.",
+          "image": "Close-up of a huge old clock tower face in fog at sunrise, a bird flying past."
+        }
+      ],
+      "end": {
+        "variant": "grey",
+        "text": "Seja bem-vindo, irmão.\nEssa página é pra você."
+      },
+      "caption": "Copia, cola no status e deixa quem tiver que entender, entender. 🤐\n\nQual dessas você vai postar? Comenta o número."
+    },
+    {
+      "id": "202-indiretas-peixe",
+      "format": "status",
+      "visual": "Moody cinematic photography, cold blue and grey tones, rain and night, film grain.",
+      "cover": {
+        "text": "Indiretas bem diretas...",
+        "style": "condensed",
+        "image": "Black and white dramatic photo of a small goldfish swimming in a dark aquarium wearing a fake plastic shark fin strapped on its back, intense side light, funny and striking."
+      },
+      "slides": [
+        {
+          "text": "Não sumi.\nSó parei de aparecer pra quem não fazia questão.",
+          "image": "A man walking alone on an empty beach at dusk, footprints behind him."
+        },
+        {
+          "text": "Te mandei isso porque o sucesso\nainda tá te esperando. Não desiste.",
+          "image": "Long exposure of a night highway with light trails from cars, wet asphalt."
+        },
+        {
+          "text": "Você foi a última vez\nque eu insisti.",
+          "image": "A man sitting alone in a parked car at night in the rain, dashboard light on his face."
+        },
+        {
+          "text": "Sinto saudade.\nMas não volto.",
+          "image": "A lone surfer walking out of a grey stormy sea carrying his board, overcast sky."
+        }
+      ],
+      "end": {
+        "variant": "grey",
+        "text": "Seja bem-vindo, irmão.\nEssa página é pra você."
+      },
+      "caption": "Nem tudo precisa ser dito na cara. 😶\n\nManda pra quem precisa ler isso (ou posta e deixa no ar)."
+    },
+    {
+      "id": "203-maturidade-ceifador",
+      "format": "maturidade",
+      "visual": "Cinematic hyper-realistic photography, dramatic moody lighting, rain, warm and cold contrast, film still.",
+      "cover": {
+        "text": "Você tem maturidade para ler isso sem se ofender?",
+        "style": "condensed",
+        "image": "A towering hooded grim reaper skeleton in a tattered brown cloak raising both bony hands over a stormy sea, lightning, epic dark fantasy painting."
+      },
+      "slides": [
+        {
+          "text": "Homem sem propósito vira plateia da vida dos outros.",
+          "image": "A man sitting alone in an empty stadium seat at night, looking at the empty field."
+        },
+        {
+          "text": "Com dinheiro você compra atenção. Sem dinheiro você descobre quem te ama.",
+          "image": "A couple laughing at a cheap street food table at night under warm string lights."
+        },
+        {
+          "text": "Mente fraca reclama. Mente forte resolve.",
+          "image": "Close-up of a motorcyclist's eyes through a raised helmet visor in the rain at night."
+        },
+        {
+          "text": "No trabalho, seja educado com todos e íntimo de poucos.",
+          "image": "Two businessmen shaking hands in a modern office lobby, polite distance."
+        },
+        {
+          "text": "Networking abre portas que o diploma sozinho não abre.",
+          "image": "An older businessman in a classic office making a phone call, framed diploma behind him, black and white."
+        },
+        {
+          "text": "Quem só treina no sol não aguenta a primeira tempestade.",
+          "image": "A man running alone on a road in heavy rain at night, determined."
+        },
+        {
+          "text": "Toda escolha tem um preço: o que você ganha e o que você deixa pra trás.",
+          "image": "A man walking toward a fork in a dirt road at sunset, golden fields."
+        },
+        {
+          "text": "A mulher certa multiplica. A errada divide.",
+          "image": "A happy family cooking together in a warm rustic kitchen, father laughing."
+        }
+      ],
+      "end": {
+        "variant": "grey",
+        "text": "Seja bem-vindo, irmão.\nEssa página é pra você."
+      },
+      "caption": "Verdades não precisam ser confortáveis. Precisam ser ditas. ⚖️\n\nQual delas doeu mais? Comenta."
+    },
+    {
+      "id": "204-distracao-foco",
+      "format": "duo",
+      "visual": "Cinematic photorealistic first-person perspective, dramatic lighting, high detail.",
+      "slides": [
+        {
+          "top": "DISTRAÇÃO",
+          "bottom": "FOCO",
+          "imageTop": "First-person view of a desk where a smartphone full of notifications covers an open book, messy, cluttered.",
+          "imageBottom": "First-person view of the same desk, phone face down far away, hands writing in a notebook under a clean lamp light."
+        },
+        {
+          "top": "DISTRAÇÃO",
+          "bottom": "FOCO",
+          "imageTop": "First-person view from a boxer in the ring, the shouting crowd sharp and the opponent blurred.",
+          "imageBottom": "First-person view from a boxer in the ring, the crowd blurred and the opponent sharp and centered."
+        },
+        {
+          "top": "DISTRAÇÃO",
+          "bottom": "FOCO",
+          "imageTop": "First-person view of a chessboard with the spectators' faces in sharp focus around it.",
+          "imageBottom": "First-person view of a chessboard with only the pieces in sharp focus, everything else dark."
+        },
+        {
+          "top": "DISTRAÇÃO",
+          "bottom": "FOCO",
+          "imageTop": "First-person view of a weightlifter in a gym looking at people filming him with phones.",
+          "imageBottom": "First-person view of a weightlifter gripping the barbell, chalk dust, only the bar in focus."
+        },
+        {
+          "top": "DISTRAÇÃO",
+          "bottom": "FOCO",
+          "imageTop": "First-person view of a sprinter on the starting blocks looking at the huge stadium screen.",
+          "imageBottom": "First-person view of a sprinter on the blocks looking only at the empty track lane ahead."
+        },
+        {
+          "top": "DISTRAÇÃO",
+          "bottom": "FOCO",
+          "imageTop": "First-person view from a race car cockpit with the crowd and billboards sharp, the track blurred.",
+          "imageBottom": "First-person view from a race car cockpit with only the track curve sharp ahead."
+        },
+        {
+          "top": "DISTRAÇÃO",
+          "bottom": "FOCO",
+          "imageTop": "Back view of a man on stage looking at a huge noisy audience, camera flashes everywhere.",
+          "imageBottom": "Back view of the same man on stage with eyes closed, spotlight only on him, audience dark."
+        }
+      ],
+      "end": {
+        "variant": "thanks",
+        "text": "Obrigado\npor chegar\naté aqui.",
+        "sub": "Se fez sentido,\nsiga a página."
+      },
+      "caption": "Tudo é uma questão de onde você coloca a sua atenção. 🎯\n\nOnde está o seu foco hoje?"
+    },
+    {
+      "id": "205-ainda-tem",
+      "format": "duo",
+      "visual": "Cinematic photography, natural light, landscapes at golden hour, film grain.",
+      "slides": [
+        {
+          "top": "1 \"não\" na entrevista.",
+          "bottom": "Ainda existem milhares de portas.",
+          "labelStyle": "sentence",
+          "imageTop": "A young man in a suit sitting on the steps outside an office building, tie loosened, disappointed, overcast.",
+          "imageBottom": "A long corridor of many doors bathed in golden sunlight."
+        },
+        {
+          "top": "1 dia ruim.",
+          "bottom": "Ainda tem a semana inteira.",
+          "labelStyle": "sentence",
+          "imageTop": "A man lying on a sofa in a dark living room at night, exhausted.",
+          "imageBottom": "A bright sunrise over a calm city seen from a balcony."
+        },
+        {
+          "top": "1 mês difícil.",
+          "bottom": "Ainda tem 11 pela frente.",
+          "labelStyle": "sentence",
+          "imageTop": "A man in the rain under a bus stop, soaked, looking down.",
+          "imageBottom": "A wide road through green hills under a clear blue sky."
+        },
+        {
+          "top": "1 ano perdido.",
+          "bottom": "Ainda tem a vida inteira.",
+          "labelStyle": "sentence",
+          "imageTop": "A lone man sitting on a pier in a grey winter fog.",
+          "imageBottom": "The same pier in summer, a man jumping into the sparkling sea."
+        },
+        {
+          "top": "1 coração partido.",
+          "bottom": "Ainda tem o seu.",
+          "labelStyle": "sentence",
+          "imageTop": "A man sitting alone on a bed in a dim room holding an old photo.",
+          "imageBottom": "A man smiling while hiking alone on a mountain trail at sunrise."
+        }
+      ],
+      "end": {
+        "variant": "thanks"
+      },
+      "caption": "Um momento ruim não é uma vida ruim. 🌅\n\nManda pra alguém que precisa ler isso hoje."
+    },
+    {
+      "id": "206-qualidade-anos",
+      "format": "anos",
+      "visual": "Clean product photography on a warm wooden table, soft studio light, three versions of the same object stacked vertically (top, middle, bottom), each version clearly cheaper and worse than the one above. No brand names or logos.",
+      "cover": {
+        "text": "A preguiça não chega de repente.",
+        "style": "condensed",
+        "image": "Three green plastic toy soldiers on a wooden table: the top one strong and detailed aiming a rifle, the middle one simpler, the bottom one a deformed cheap lime-green blob soldier, warm light, funny."
+      },
+      "slides": [
+        {
+          "labels": [
+            "1975",
+            "2000",
+            "2026"
+          ],
+          "image": "Top: a heavy detailed black metal toy steam locomotive. Middle: a plastic toy train. Bottom: a tiny cheap red plastic toy train."
+        },
+        {
+          "labels": [
+            "1980",
+            "2005",
+            "2026"
+          ],
+          "image": "Top: a die-cast metal toy race car with real rubber tires. Middle: a plastic toy car. Bottom: a flat flimsy plastic toy car with stickers."
+        },
+        {
+          "labels": [
+            "1985",
+            "2005",
+            "2026"
+          ],
+          "image": "Top: a detailed articulated soldier action figure with gear. Middle: a simpler soldier figure. Bottom: a stiff cheap single-piece soldier figure."
+        },
+        {
+          "labels": [
+            "1990",
+            "2008",
+            "2026"
+          ],
+          "image": "Top: a solid steel hammer with a wooden handle. Middle: a hammer with a rubber handle. Bottom: a thin cheap hammer with a hollow plastic handle."
+        },
+        {
+          "labels": [
+            "1992",
+            "2008",
+            "2026"
+          ],
+          "image": "Top: a big chunky water gun with a pump tank. Middle: a medium water gun. Bottom: a tiny transparent squirt gun."
+        },
+        {
+          "labels": [
+            "1975",
+            "2000",
+            "2026"
+          ],
+          "image": "Top: sturdy leather work boots. Middle: synthetic boots. Bottom: cheap thin plastic boots with glued soles."
+        },
+        {
+          "labels": [
+            "1970",
+            "2000",
+            "2026"
+          ],
+          "image": "Top: a solid wooden chair with carved details. Middle: a simple pine chair. Bottom: a wobbly flat-pack particle board chair."
+        }
+      ],
+      "end": {
+        "variant": "paper",
+        "text": "Confia em mim: você vai aprender muita coisa aqui. Então segue."
+      },
+      "caption": "Tudo foi ficando mais fácil, mais barato e mais fraco. Inclusive as pessoas. 🧱\n\nQual dessas você teve na infância?"
+    },
+    {
+      "id": "207-bichos-biblioteca",
+      "format": "bichos",
+      "visual": "Rich detailed vintage storybook illustration with anthropomorphic animals wearing clothes, warm golden and brown tones, oil painting texture.",
+      "cover": {
+        "text": "Qual é a sua academia?",
+        "style": "serif",
+        "image": "Two anthropomorphic big cats standing side by side: a huge muscular tabby cat in a tight yellow t-shirt and jeans looking smug, and a sleek black panther in a tweed suit holding a thick book, vintage illustration, warm background, empty space at the top."
+      },
+      "slides": [
+        {
+          "title": "A ilusão de um teste justo.",
+          "bubbles": [
+            {
+              "text": "Pra ser justo, todos farão a mesma prova: atravessar o rio a nado.",
+              "x": 62,
+              "y": 30
+            }
+          ],
+          "image": "A wise old owl in a suit at a desk by a river giving a test to a fish, a monkey, an elephant, a cat and a turtle lined up on the bank, vintage illustration."
+        },
+        {
+          "title": "Nunca foi tão fácil ser melhor que 99%.",
+          "image": "A panther in a smoking jacket reading a book by the fireplace while many other cats sleep and stare at glowing phones around him."
+        },
+        {
+          "title": "Ferramenta boa na mão de preguiçoso é enfeite.",
+          "image": "A lazy cat lying in a hammock surrounded by expensive unused tools and machines in a workshop."
+        },
+        {
+          "title": "",
+          "bubbles": [
+            {
+              "text": "Eu falhei 1000 vezes...",
+              "x": 30,
+              "y": 12
+            },
+            {
+              "text": "Eu aprendi 1000 lições!",
+              "x": 70,
+              "y": 62
+            }
+          ],
+          "image": "Two cats on opposite cliffs at sunset: one sitting sad at the bottom of a pile of broken ladders, the other standing proudly on top of a cliff built from the same broken ladders."
+        },
+        {
+          "title": "A escola ensina a obedecer. A vida cobra que você pense.",
+          "image": "A steampunk machine turning many different cats into identical cats in uniforms on a conveyor belt."
+        }
+      ],
+      "end": {
+        "variant": "teacher",
+        "text": "Você vai aprender muita coisa valiosa aqui.\nSiga a página!",
+        "image": "An anthropomorphic grey wolf professor in a brown suit and glasses pointing with a stick, standing at the right side of an old classroom with a large blank chalkboard on the left, vintage illustration."
+      },
+      "caption": "Os bichos explicam melhor do que muita gente. 🐆📚\n\nQual dessas é a mais real? Comenta."
+    },
+    {
+      "id": "208-verdades-nokia",
+      "format": "nokia",
+      "visual": "",
+      "cover": {
+        "text": "Verdades que você precisa ouvir antes de morrer...",
+        "style": "serif",
+        "image": "A man wearing a full rubber horse head mask and a cheap blue polo shirt standing in a convenience store aisle holding a shopping basket, staring straight at the camera, bizarre and funny, harsh direct flash photography, candid amateur photo."
+      },
+      "slides": [
+        {
+          "text": "Você treina 4 anos e vê pouco resultado. Aí, em 1 mês, ganha mais do que nos 4 anteriores.\nConfia no processo."
+        },
+        {
+          "text": "Melhor cansado de trabalhar do que quebrado por preguiça."
+        },
+        {
+          "text": "E se faltassem só mais 30 tentativas pra você conseguir?\nCom que pressa você desistiria?"
+        },
+        {
+          "text": "Não tenha vergonha do trabalho duro.\nFalam de você, mas não pagam as suas contas."
+        },
+        {
+          "text": "Tijolo por tijolo.\nDia após dia.\nQuem chega lá é quem não parou de construir."
+        },
+        {
+          "text": "— Uau, como você mudou!\n— Obrigado. Deu trabalho."
+        }
+      ],
+      "end": {
+        "variant": "paper",
+        "text": "Vai por mim: essa página não vai aparecer de novo pra você. Segue logo."
+      },
+      "caption": "Salva pra ler de novo quando bater a vontade de desistir. 📵\n\nQual dessas você precisava ouvir hoje?"
+    },
+    {
+      "id": "209-fe-status",
+      "format": "status",
+      "visual": "Moody cinematic photography, warm low light and deep shadows, film grain, contemplative mood.",
+      "cover": {
+        "text": "Essas merecem ir para o status...",
+        "style": "sans",
+        "image": "Renaissance-style oil painting of a grinning medieval court jester with a red and yellow hood covering half of his face with one hand while laughing, dark background, unsettling and funny."
+      },
+      "slides": [
+        {
+          "text": "Fui ensinado a temer só a Deus.\nO resto eu encaro de frente.",
+          "image": "A soldier in the jungle looking straight at the camera, sweat and mud on his face, intense."
+        },
+        {
+          "text": "Quem tem Deus\nnão está de mãos vazias.",
+          "image": "An old poor man sitting on a sidewalk reading a worn Bible with peace on his face."
+        },
+        {
+          "text": "Tem quem sorri pra você\ne torce contra você.",
+          "image": "Extreme close-up of an eye at sunset with a reflection of a city, warm light."
+        },
+        {
+          "kind": "verse",
+          "ref": "João 14:6 | NVI",
+          "text": "Respondeu Jesus: \"Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai, a não ser por mim.\""
+        },
+        {
+          "text": "Longe da igreja às vezes.\nLonge de Deus, nunca.",
+          "image": "An old wooden cross on a hill at sunrise with fog in the valley."
+        }
+      ],
+      "end": {
+        "variant": "grey",
+        "text": "Seja bem-vindo, irmão.\nEssa página é pra você."
+      },
+      "caption": "Fé não se explica. Se vive. 🙏\n\nSe você acredita, comenta Amém."
+    },
+    {
+      "id": "210-ate-o-fim",
+      "format": "status",
+      "visual": "Epic dark fantasy painting, battlefield, smoke and embers, cinematic.",
+      "slides": [
+        {
+          "kind": "bubbles",
+          "title": "",
+          "bubbles": [
+            {
+              "text": "Até o fim, irmão?",
+              "x": 32,
+              "y": 18
+            },
+            {
+              "text": "Até o fim.",
+              "x": 72,
+              "y": 12
+            }
+          ],
+          "image": "Two battered Roman legionaries standing back to back on a burning battlefield, swords raised, surrounded by enemies in the smoke."
+        },
+        {
+          "kind": "verse",
+          "ref": "Eclesiastes 4:9-10 | NVI",
+          "text": "É melhor ter companhia do que estar sozinho, porque maior é a recompensa do trabalho de duas pessoas. Se um cair, o amigo pode ajudá-lo a levantar-se."
+        }
+      ],
+      "end": {
+        "variant": "grey",
+        "text": "Seja bem-vindo, irmão.\nEssa página é pra você."
+      },
+      "caption": "Marca o irmão que vai com você até o fim. ⚔️"
     }
   ]
 }

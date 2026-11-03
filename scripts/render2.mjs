@@ -5,8 +5,9 @@ import { chromium } from 'playwright';
 import { readFile, mkdir, rm } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
-import { ROOT, IMG_DIR, loadPosts, findImage, missingImages } from './posts-lib.mjs';
-import { cover, plain, boxed, serif, meme, endImage, endPaper, W, H } from './template2.mjs';
+import { ROOT, IMG_DIR, loadPosts, findImage, missingImages, kindOf } from './posts-lib.mjs';
+import * as T from './template2.mjs';
+const { W, H } = T;
 
 async function uri(id, slot) {
   const f = findImage(path.join(IMG_DIR(id), slot));
@@ -16,22 +17,24 @@ async function uri(id, slot) {
 
 export async function buildSlides(post) {
   const html = [];
-  if (post.cover) html.push(cover(post.cover, await uri(post.id, 'cover')));
+  if (post.cover) html.push(T.cover(post.cover, await uri(post.id, 'cover')));
   for (let i = 0; i < post.slides.length; i++) {
-    const s = post.slides[i];
+    const s = { ...post.slides[i] };
     const n = String(i + 1).padStart(2, '0');
-    if (post.format === 'meme') {
-      html.push(meme(s, await uri(post.id, `s${n}a`), await uri(post.id, `s${n}b`)));
-      continue;
-    }
-    const img = await uri(post.id, `s${n}`);
-    const text = s.text || post.captions?.[i] || '';
-    if (post.format === 'frases') html.push(serif({ text }, img));
-    else if (s.box || post.format === 'noticias') html.push(boxed({ text }, img));
-    else html.push(plain({ text }, img));
+    if (!s.text && post.captions?.[i]) s.text = post.captions[i];
+    const kind = kindOf(post, s);
+    if (kind === 'meme' || kind === 'duo') { html.push(T[kind](s, await uri(post.id, `s${n}a`), await uri(post.id, `s${n}b`))); continue; }
+    if (kind === 'nokia' || kind === 'verse') { html.push(T[kind](s)); continue; }
+    html.push(T[kind](s, await uri(post.id, `s${n}`)));
   }
-  if (post.end?.variant === 'image') html.push(endImage(post.end, await uri(post.id, 'end')));
-  else if (post.end) html.push(endPaper(post.end));
+  const e = post.end;
+  if (e) {
+    if (e.variant === 'image') html.push(T.endImage(e, await uri(post.id, 'end')));
+    else if (e.variant === 'teacher') html.push(T.endTeacher(e, await uri(post.id, 'end')));
+    else if (e.variant === 'grey') html.push(T.endGrey(e));
+    else if (e.variant === 'thanks') html.push(T.endThanks(e));
+    else html.push(T.endPaper(e));
+  }
   if (html.length > 10) throw new Error(`${post.id}: ${html.length} slides (máximo do Instagram é 10)`);
   return html;
 }
