@@ -1,0 +1,11 @@
+{
+  "name": "ig-autopost",
+  "main": "src/index.js",
+  "compatibility_date": "2026-11-03",
+  "assets": { "directory": "public", "binding": "ASSETS" },
+  "kv_namespaces": [{ "binding": "STATE", "id": "5b46f6978c8344feb10a18d497d49fb0" }],
+  // Horário de Brasília (UTC-3): 08h, 12h, 18h e 21h
+  "triggers": { "crons": ["0 11 * * *", "0 15 * * *", "0 21 * * *", "0 0 * * *"] },
+  "vars": { "PUBLIC_ORIGIN": "https://ig-autopost.ohomemrespeitado-autopost.workers.dev" },
+  "observability": { "enabled": true }
+}

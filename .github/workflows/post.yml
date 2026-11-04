@@ -1,12 +1,7 @@
 name: Postar carrossel
 
 on:
-  schedule:
-    # Horário de Brasília (UTC-3): 08h, 12h, 18h e 21h.
-    # O GitHub atrasa ou pula disparos na hora cheia, então cada horário tem 3 tentativas
-    # (:07, :37 e +1h07). O publish.mjs ignora a tentativa se já houve post há menos de 2h.
-    - cron: '7,37 11,15,21,0 * * *'
-    - cron: '7 12,16,22,1 * * *'
+  # O agendamento agora é feito pelo Worker da Cloudflare (worker/). Aqui fica só o disparo manual.
   workflow_dispatch:
     inputs:
       id:

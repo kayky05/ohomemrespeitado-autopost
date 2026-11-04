@@ -328,7 +328,8 @@
         "variant": "grey",
         "text": "Seja bem-vindo, irmão.\nEssa página é pra você."
       },
-      "caption": "Copia, cola no status e deixa quem tiver que entender, entender. 🤐\n\nQual dessas você vai postar? Comenta o número."
+      "caption": "Copia, cola no status e deixa quem tiver que entender, entender. 🤐\n\nQual dessas você vai postar? Comenta o número.",
+      "hold": true
     },
     {
       "id": "202-indiretas-peixe",
@@ -361,7 +362,8 @@
         "variant": "grey",
         "text": "Seja bem-vindo, irmão.\nEssa página é pra você."
       },
-      "caption": "Nem tudo precisa ser dito na cara. 😶\n\nManda pra quem precisa ler isso (ou posta e deixa no ar)."
+      "caption": "Nem tudo precisa ser dito na cara. 😶\n\nManda pra quem precisa ler isso (ou posta e deixa no ar).",
+      "hold": true
     },
     {
       "id": "203-maturidade-ceifador",
@@ -410,7 +412,8 @@
         "variant": "grey",
         "text": "Seja bem-vindo, irmão.\nEssa página é pra você."
       },
-      "caption": "Verdades não precisam ser confortáveis. Precisam ser ditas. ⚖️\n\nQual delas doeu mais? Comenta."
+      "caption": "Verdades não precisam ser confortáveis. Precisam ser ditas. ⚖️\n\nQual delas doeu mais? Comenta.",
+      "hold": true
     },
     {
       "id": "204-distracao-foco",
@@ -465,7 +468,8 @@
         "text": "Obrigado\npor chegar\naté aqui.",
         "sub": "Se fez sentido,\nsiga a página."
       },
-      "caption": "Tudo é uma questão de onde você coloca a sua atenção. 🎯\n\nOnde está o seu foco hoje?"
+      "caption": "Tudo é uma questão de onde você coloca a sua atenção. 🎯\n\nOnde está o seu foco hoje?",
+      "hold": true
     },
     {
       "id": "205-ainda-tem",
@@ -511,7 +515,8 @@
       "end": {
         "variant": "thanks"
       },
-      "caption": "Um momento ruim não é uma vida ruim. 🌅\n\nManda pra alguém que precisa ler isso hoje."
+      "caption": "Um momento ruim não é uma vida ruim. 🌅\n\nManda pra alguém que precisa ler isso hoje.",
+      "hold": true
     },
     {
       "id": "206-qualidade-anos",
@@ -584,7 +589,8 @@
         "variant": "paper",
         "text": "Confia em mim: você vai aprender muita coisa aqui. Então segue."
       },
-      "caption": "Tudo foi ficando mais fácil, mais barato e mais fraco. Inclusive as pessoas. 🧱\n\nQual dessas você teve na infância?"
+      "caption": "Tudo foi ficando mais fácil, mais barato e mais fraco. Inclusive as pessoas. 🧱\n\nQual dessas você teve na infância?",
+      "hold": true
     },
     {
       "id": "207-bichos-biblioteca",
@@ -641,7 +647,8 @@
         "text": "Você vai aprender muita coisa valiosa aqui.\nSiga a página!",
         "image": "An anthropomorphic grey wolf professor in a brown suit and glasses pointing with a stick, standing at the right side of an old classroom with a large blank chalkboard on the left, vintage illustration."
       },
-      "caption": "Os bichos explicam melhor do que muita gente. 🐆📚\n\nQual dessas é a mais real? Comenta."
+      "caption": "Os bichos explicam melhor do que muita gente. 🐆📚\n\nQual dessas é a mais real? Comenta.",
+      "hold": true
     },
     {
       "id": "208-verdades-nokia",
@@ -676,7 +683,8 @@
         "variant": "paper",
         "text": "Vai por mim: essa página não vai aparecer de novo pra você. Segue logo."
       },
-      "caption": "Salva pra ler de novo quando bater a vontade de desistir. 📵\n\nQual dessas você precisava ouvir hoje?"
+      "caption": "Salva pra ler de novo quando bater a vontade de desistir. 📵\n\nQual dessas você precisava ouvir hoje?",
+      "hold": true
     },
     {
       "id": "209-fe-status",
@@ -714,7 +722,8 @@
         "variant": "grey",
         "text": "Seja bem-vindo, irmão.\nEssa página é pra você."
       },
-      "caption": "Fé não se explica. Se vive. 🙏\n\nSe você acredita, comenta Amém."
+      "caption": "Fé não se explica. Se vive. 🙏\n\nSe você acredita, comenta Amém.",
+      "hold": true
     },
     {
       "id": "210-ate-o-fim",
@@ -748,7 +757,8 @@
         "variant": "grey",
         "text": "Seja bem-vindo, irmão.\nEssa página é pra você."
       },
-      "caption": "Marca o irmão que vai com você até o fim. ⚔️"
+      "caption": "Marca o irmão que vai com você até o fim. ⚔️",
+      "hold": true
     }
   ]
 }

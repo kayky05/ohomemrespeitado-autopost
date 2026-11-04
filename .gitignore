@@ -7,3 +7,5 @@ brand/quotes/
 brand/covers/
 brand/bg/
 content/image-jobs.json
+worker/public/
+worker/.wrangler/
