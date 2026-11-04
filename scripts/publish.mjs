@@ -60,6 +60,14 @@ async function main() {
   try { state = JSON.parse(await readFile(STATE, 'utf8')); } catch {}
   const done = new Set(state.posted.map((p) => p.id));
 
+  // Disparo agendado: cada horário tem tentativas extras; só posta se o último post tiver mais de 2h.
+  const last = state.posted.at(-1);
+  const gapMin = last ? (Date.now() - Date.parse(last.at)) / 60000 : Infinity;
+  if (process.env.GITHUB_EVENT_NAME === 'schedule' && !forced && gapMin < 120) {
+    console.log(`Último post há ${Math.round(gapMin)} min (${last.id}); esta tentativa não posta.`);
+    return;
+  }
+
   // Só entra na fila quem já foi renderizado (o render só gera posts com todas as imagens).
   const rendered = (x) => existsSync(path.join(ROOT, 'out', x.id, '01.jpg'));
   const c = forced ? posts.find((x) => x.id === forced) : posts.find((x) => !done.has(x.id) && rendered(x));
