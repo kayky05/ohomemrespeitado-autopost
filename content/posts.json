@@ -1102,7 +1102,8 @@
       "cover": {
         "text": "Em qual dessas você está?",
         "style": "serif",
-        "image": "An anthropomorphic lion in an old tweed suit reading a newspaper calmly on a park bench while a nervous chihuahua in a tiny jacket barks at him, vintage illustration, warm background, empty space at the top."
+        "image": "An anthropomorphic lion in an old tweed suit reading a newspaper calmly on a park bench while a nervous chihuahua in a tiny jacket barks at him, vintage illustration, warm background, empty space at the top.",
+        "place": "top"
       },
       "slides": [
         {
@@ -1534,7 +1535,8 @@
       "cover": {
         "text": "Qual desses bichos é você?",
         "style": "serif",
-        "image": "An anthropomorphic tired ant in overalls carrying a huge sack next to a relaxed grasshopper in sunglasses lying in a hammock, vintage illustration, warm autumn background, empty space at the top."
+        "image": "An anthropomorphic tired ant in overalls carrying a huge sack next to a relaxed grasshopper in sunglasses lying in a hammock, vintage illustration, warm autumn background, empty space at the top.",
+        "place": "top"
       },
       "slides": [
         {

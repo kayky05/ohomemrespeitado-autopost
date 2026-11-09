@@ -38,7 +38,8 @@ const bg = (uri, pos = 'center') => `<div class="img" style="background-image:ur
 // CAPA: imagem-isca + título na parte de baixo.
 // style: 'sans' (padrão, Montserrat grossa), 'condensed' (Anton, tipo "INDIRETAS BEM DIRETAS..."),
 //        'serif' (tipo "Coloque isso no status e suma..."). sub = linha pequena vermelha embaixo.
-export function cover({ text, style = 'sans', sub = '' }, img) {
+// place='top': título no alto, sem sombra (para imagens com espaço vazio em cima, ex.: bichos).
+export function cover({ text, style = 'sans', sub = '', place = 'bottom' }, img) {
   const len = text.length;
   const base = style === 'condensed' ? 104 : style === 'serif' ? 92 : 82;
   const size = len < 40 ? base : len < 70 ? base - 10 : len < 100 ? base - 20 : base - 28;
@@ -48,15 +49,15 @@ export function cover({ text, style = 'sans', sub = '' }, img) {
     serif: `font-family:'Libre Caslon Text',serif;font-weight:400;letter-spacing:-.02em;line-height:1.05`,
   }[style];
   return page(
-    `<div class="s">${bg(img, 'center 30%')}
-      <div class="shade"></div>
-      <div class="box-area" style="bottom:${sub ? 128 : 118}px">
+    `<div class="s">${bg(img, place === 'top' ? 'center 100%' : 'center 30%')}
+      ${place === 'top' ? '' : '<div class="shade"></div>'}
+      <div class="box-area" style="${place === 'top' ? 'top:96px' : `bottom:${sub ? 128 : 118}px`}">
         <h1 class="t" data-fit data-maxh="520" data-min="44">${lines(text)}</h1>
         ${sub ? `<div class="sub">${esc(sub)}</div>` : ''}
       </div>
       <div class="wm" style="bottom:52px;right:88px">${HANDLE}</div></div>`,
     `.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 45%,rgba(0,0,0,.65) 63%,rgba(0,0,0,.96) 80%,#000 100%)}
-     .t{${font};font-size:${size}px;color:#fff}
+     .t{${font};font-size:${size}px;color:${place === 'top' ? '#1d1209' : '#fff'}}
      .sub{margin-top:18px;font-family:'Figtree',sans-serif;font-weight:600;font-size:24px;color:#e0262b}`
   );
 }

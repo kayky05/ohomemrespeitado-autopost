@@ -1,8 +1,15 @@
 """Convert generated PNGs in brand/{covers,bg,quotes,v2/*} to 1080px-wide JPEGs and delete the PNGs."""
-import glob, os
+import glob, os, sys, time
 from PIL import Image
 
-for png in glob.glob('brand/covers/*.png') + glob.glob('brand/bg/*.png') + glob.glob('brand/quotes/*.png') + glob.glob('brand/v2/*/*.png'):
+# Uso: python scripts/optimize-images.py [id-do-post ...]
+# Pula PNGs alterados nos últimos 60s (o gerador pode ainda estar gravando).
+ids = sys.argv[1:]
+pngs = [f for i in ids for f in glob.glob(f'brand/v2/{i}/*.png')] if ids else (
+    glob.glob('brand/covers/*.png') + glob.glob('brand/bg/*.png') + glob.glob('brand/quotes/*.png') + glob.glob('brand/v2/*/*.png'))
+for png in pngs:
+    if time.time() - os.path.getmtime(png) < 60:
+        print('pulado (recente)', png); continue
     im = Image.open(png).convert('RGB')
     w, h = im.size
     if w != 1080:
