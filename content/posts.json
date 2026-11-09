@@ -749,6 +749,1231 @@
         "text": "Seja bem-vindo, irmão.\nEssa página é pra você."
       },
       "caption": "Marca o irmão que vai com você até o fim. ⚔️"
+    },
+    {
+      "id": "301-verdades-avo",
+      "format": "nokia",
+      "cover": {
+        "text": "Conselhos que o meu avô me deu antes de partir...",
+        "style": "serif",
+        "image": "Close-up portrait of a very old man with a huge white bushy mustache, extremely deep wrinkles and one squinting eye, staring suspiciously at the camera, harsh flash photo, funny and unsettling, plain wall background."
+      },
+      "slides": [
+        {
+          "text": "Nunca conte o seu plano antes de ele estar pronto.\nGente que torce contra também escuta."
+        },
+        {
+          "text": "Dinheiro emprestado pra amigo:\nou você perde o dinheiro, ou perde o amigo.\nÀs vezes os dois."
+        },
+        {
+          "text": "Homem que reclama de tudo\nnão tem tempo pra resolver nada."
+        },
+        {
+          "text": "Respeite a sua mãe.\nUm dia você vai dar tudo pra ouvir a voz dela de novo."
+        },
+        {
+          "text": "Não durma brigado com quem você ama.\nAmanhã não é promessa."
+        },
+        {
+          "text": "Trabalhe calado.\nO resultado faz o barulho por você."
+        }
+      ],
+      "end": {
+        "variant": "paper",
+        "text": "Vai por mim: essa página não vai aparecer de novo pra você. Segue logo."
+      },
+      "caption": "Avô não fala muito. Mas quando fala, fica pra vida inteira. 👴\n\nQual conselho o seu avô te deu? Conta aqui."
+    },
+    {
+      "id": "302-meme-nao-explique",
+      "format": "meme",
+      "visual": "Soft realistic colored-pencil illustration with warm beige and light tones, textured paper look. Same character in every image: a fit young man, short black curly hair, short beard, white t-shirt and blue jeans.",
+      "slides": [
+        {
+          "top": "Não entenderam a sua decisão?",
+          "bottom": "Não explique.",
+          "imageTop": "The young man at a family dinner table while everyone looks at him with doubt.",
+          "imageBottom": "The young man packing a backpack in his room, calm and decided."
+        },
+        {
+          "top": "Riram do seu sonho?",
+          "bottom": "Ria junto. E continue.",
+          "imageTop": "The young man showing a sketch notebook to friends who are laughing at him.",
+          "imageBottom": "The young man working late at a small desk with the same notebook, lamp on."
+        },
+        {
+          "top": "Te deixaram de lado no grupo?",
+          "bottom": "Aproveite o silêncio.",
+          "imageTop": "The young man looking at his phone while a group of friends takes a selfie without him in the background.",
+          "imageBottom": "The young man fishing alone on a peaceful lake at sunrise."
+        },
+        {
+          "top": "Ninguém te elogiou?",
+          "bottom": "Faça mesmo assim.",
+          "imageTop": "The young man finishing a hard workout alone in an empty gym, nobody watching.",
+          "imageBottom": "The young man lifting even heavier weights the next morning, determined."
+        },
+        {
+          "top": "Te subestimaram?",
+          "bottom": "Ótimo. Deixe.",
+          "imageTop": "Two men in suits laughing while pointing at the young man in a meeting room.",
+          "imageBottom": "The young man shaking hands with an important client while the two men watch surprised."
+        }
+      ],
+      "end": {
+        "variant": "paper",
+        "text": "Confia: essa página não vai aparecer de novo pra você. Segue logo."
+      },
+      "caption": "Você não deve explicação pra quem só quer te ver parado. 🤐\n\nQual dessas você já viveu?"
+    },
+    {
+      "id": "303-lista-perder-respeito",
+      "format": "lista",
+      "visual": "Dark cinematic digital painting with deep crimson red and black tones, dramatic rim light, smoke, mysterious atmosphere.",
+      "cover": {
+        "text": "6 atitudes que fazem um homem perder o respeito",
+        "image": "A stunningly beautiful woman with long dark hair in an elegant red evening dress looking back over her shoulder at the camera with a cold, judging stare, dark red background, cinematic portrait."
+      },
+      "slides": [
+        {
+          "text": "1. Falar mal de quem não está presente.",
+          "image": "A man whispering to another man while a third figure walks away in red smoke."
+        },
+        {
+          "text": "2. Prometer e não cumprir.",
+          "image": "A broken handshake made of red glass shattering into pieces in the dark."
+        },
+        {
+          "text": "3. Implorar atenção de quem não te valoriza.",
+          "image": "A man kneeling in the rain in front of a closed red door."
+        },
+        {
+          "text": "4. Perder a calma por qualquer coisa.",
+          "image": "A man shouting with red fire coming out of his mouth while people step back in the shadows."
+        },
+        {
+          "text": "5. Contar a sua vida inteira pra todo mundo.",
+          "image": "A man with an open chest like a cabinet full of glowing red secrets while a crowd peeks inside."
+        },
+        {
+          "text": "6. Rir da desgraça dos outros.",
+          "image": "A man laughing in the dark while behind him a red mirror shows his reflection as a sad clown."
+        }
+      ],
+      "end": {
+        "variant": "image",
+        "text": "Se você não seguir esta página agora, talvez ela nunca mais apareça pra você.",
+        "image": "A huge red full moon with a calm stern human face glowing over a black sea, surreal and uncanny."
+      },
+      "caption": "Respeito leva anos pra construir e segundos pra perder. ⚠️\n\nQual dessas você mais vê por aí?"
+    },
+    {
+      "id": "304-status-cobra",
+      "format": "status",
+      "visual": "Moody cinematic photography, cold blue night tones, fog, film grain, lonely atmosphere.",
+      "cover": {
+        "text": "Coloque isso no status e deixe eles pensarem...",
+        "style": "serif",
+        "sub": "leia com atenção...",
+        "image": "A strange 3D cartoon green snake with huge round bulging eyes and a big fake smile wearing a tiny black top hat, coiled on a dark blue background, weird and funny, original character."
+      },
+      "slides": [
+        {
+          "text": "Nem todo mundo que sorri pra você\nquer te ver bem.",
+          "image": "A man in a dark coat walking alone on a foggy bridge at night."
+        },
+        {
+          "text": "Aprendi a observar mais\ne a falar menos.",
+          "image": "A man sitting in a dark café by the window watching the rainy street."
+        },
+        {
+          "text": "Se afastar também é\numa forma de se respeitar.",
+          "image": "A man walking away down a long empty road at dawn, fog over the fields."
+        },
+        {
+          "text": "Quem quis ficar, ficou.\nQuem quis ir, que vá em paz.",
+          "image": "An empty train station at night, a single train leaving in the fog."
+        },
+        {
+          "text": "O meu silêncio diz muito\npra quem sabe ouvir.",
+          "image": "Close-up of a man's face in the dark lit only by a cold blue window light, eyes closed."
+        }
+      ],
+      "end": {
+        "variant": "grey",
+        "text": "Seja bem-vindo, irmão.\nEssa página é pra você."
+      },
+      "caption": "Copia, cola e deixa cada um entender do seu jeito. 🐍\n\nQual delas você vai postar?"
+    },
+    {
+      "id": "305-historia-edison",
+      "format": "historia",
+      "visual": "Grainy black and white vintage documentary photograph style, early 1900s, high contrast, somber. Never show identifiable faces; use figures from behind, silhouettes, hands and objects.",
+      "cover": {
+        "text": "Aos 67 anos ele viu o trabalho de uma vida pegar fogo. E disse uma frase que ninguém esquece",
+        "image": "Black and white vintage photo of a large brick factory engulfed in flames at night, huge smoke, small silhouettes of people watching from the street."
+      },
+      "slides": [
+        {
+          "text": "Dezembro de 1914. Nova Jersey, Estados Unidos.",
+          "image": "Black and white early 1900s industrial town street in winter, smoke from chimneys."
+        },
+        {
+          "text": "Uma explosão começou um incêndio no complexo de fábricas de Thomas Edison.",
+          "image": "Black and white image of an explosion of fire bursting from factory windows at night."
+        },
+        {
+          "text": "Prédios, máquinas, protótipos e anos de pesquisa foram destruídos em uma noite.",
+          "image": "Black and white image of burned machines and twisted metal inside a ruined factory."
+        },
+        {
+          "text": "O seguro cobria só uma parte do prejuízo. Edison tinha 67 anos.",
+          "image": "Black and white image of an old man seen from behind in a long coat looking at the flames."
+        },
+        {
+          "text": "Enquanto tudo queimava, ele chamou o filho e disse: \"Vá chamar a sua mãe. Ela nunca mais vai ver um incêndio desses.\"",
+          "image": "Black and white image of a young man running down a street lit by a distant fire."
+        },
+        {
+          "text": "No dia seguinte, falou: \"Já tenho mais de 67 anos, mas amanhã eu começo tudo de novo.\"",
+          "image": "Black and white image of workers clearing debris in daylight, smoke still rising."
+        },
+        {
+          "text": "Em poucas semanas a fábrica já voltava a produzir.",
+          "image": "Black and white image of a busy factory floor full of working machines."
+        },
+        {
+          "text": "Tudo pode queimar. Menos a sua decisão de recomeçar.",
+          "image": "Black and white close-up of an old hand holding a single new light bulb against a dark background."
+        }
+      ],
+      "end": {
+        "variant": "paper",
+        "text": "Histórias assim mudam vidas. Siga pra não perder as próximas."
+      },
+      "caption": "Thomas Edison perdeu quase tudo aos 67 anos e começou de novo no dia seguinte. 🔥\n\nQual é a sua desculpa pra não recomeçar?\n\nSalva pra lembrar quando tudo parecer perdido."
+    },
+    {
+      "id": "306-duo-amador",
+      "format": "duo",
+      "visual": "Cinematic photorealistic photography, dramatic lighting, high detail, same framing in both images of each pair.",
+      "slides": [
+        {
+          "top": "AMADOR",
+          "bottom": "PROFISSIONAL",
+          "imageTop": "A man on a couch at noon watching motivational videos on his phone, snacks around him.",
+          "imageBottom": "A man at 5am in a garage gym training alone under a single light bulb."
+        },
+        {
+          "top": "AMADOR",
+          "bottom": "PROFISSIONAL",
+          "imageTop": "A man at a party showing off a rented luxury car to friends at night.",
+          "imageBottom": "A man in a simple old car reading a finance book in a parking lot at dawn."
+        },
+        {
+          "top": "AMADOR",
+          "bottom": "PROFISSIONAL",
+          "imageTop": "A man arguing angrily with people in the comment section on his laptop late at night.",
+          "imageBottom": "A man asleep early in a tidy bedroom, phone charging far away from the bed."
+        },
+        {
+          "top": "AMADOR",
+          "bottom": "PROFISSIONAL",
+          "imageTop": "A man buying expensive gym clothes in a store, never been to the gym.",
+          "imageBottom": "A man in worn old training clothes sweating hard on a running track."
+        },
+        {
+          "top": "AMADOR",
+          "bottom": "PROFISSIONAL",
+          "imageTop": "A man talking loudly about his plans at a bar table full of beer.",
+          "imageBottom": "A man quietly working on blueprints at a kitchen table at night."
+        }
+      ],
+      "end": {
+        "variant": "thanks",
+        "text": "Obrigado\npor chegar\naté aqui.",
+        "sub": "Se fez sentido,\nsiga a página."
+      },
+      "caption": "O amador quer parecer. O profissional quer ser. 🎯\n\nHoje você foi qual dos dois?"
+    },
+    {
+      "id": "307-nokia-quem-voce",
+      "format": "nokia",
+      "cover": {
+        "text": "Mensagens que você precisava ler hoje...",
+        "style": "serif",
+        "image": "A grumpy old bulldog wearing small round glasses and a knitted sweater sitting on a sofa staring at the camera with a judging face, harsh flash photo, funny."
+      },
+      "slides": [
+        {
+          "text": "Você não está atrasado.\nVocê está no seu tempo.\nSó não pare."
+        },
+        {
+          "text": "Não é falta de tempo.\nÉ falta de prioridade.\nSeja honesto com você."
+        },
+        {
+          "text": "Aquela pessoa que você quer impressionar\nnem está pensando em você.\nViva pra você."
+        },
+        {
+          "text": "Se cuida.\nNinguém vai te salvar\nse você não começar."
+        },
+        {
+          "text": "Você já sobreviveu\na 100% dos seus piores dias.\nVai sobreviver a esse também."
+        },
+        {
+          "text": "Desligue o celular.\nOlhe pro lado.\nA vida está acontecendo agora."
+        }
+      ],
+      "end": {
+        "variant": "paper",
+        "text": "Vai por mim: essa página não vai aparecer de novo pra você. Segue logo."
+      },
+      "caption": "Salva e lê de novo quando o dia pesar. 📵\n\nQual dessas era pra você hoje?"
+    },
+    {
+      "id": "308-anos-ferramentas",
+      "format": "anos",
+      "visual": "Clean product photography on a warm wooden workbench, soft studio light, three versions of the same object stacked vertically (top, middle, bottom), each version clearly cheaper and worse than the one above. No brand names or logos.",
+      "cover": {
+        "text": "O conforto também tem um preço.",
+        "style": "condensed",
+        "image": "Three versions of a classic wristwatch stacked on a wooden table: the top one heavy mechanical steel, the middle one simpler, the bottom one a cheap flimsy plastic toy watch, warm light, slightly funny."
+      },
+      "slides": [
+        {
+          "labels": [
+            "1970",
+            "2000",
+            "2026"
+          ],
+          "image": "Top: a heavy solid steel kitchen knife with a riveted wooden handle. Middle: a lighter knife with a plastic handle. Bottom: a thin flimsy cheap knife."
+        },
+        {
+          "labels": [
+            "1975",
+            "2005",
+            "2026"
+          ],
+          "image": "Top: a thick leather backpack with brass buckles. Middle: a nylon backpack. Bottom: a thin cheap polyester drawstring bag."
+        },
+        {
+          "labels": [
+            "1980",
+            "2005",
+            "2026"
+          ],
+          "image": "Top: a heavy cast iron frying pan. Middle: a regular aluminum pan. Bottom: a thin warped cheap pan with peeling coating."
+        },
+        {
+          "labels": [
+            "1975",
+            "2000",
+            "2026"
+          ],
+          "image": "Top: a solid steel bicycle with chrome details. Middle: a simpler aluminum bicycle. Bottom: a tiny flimsy plastic toy bicycle."
+        },
+        {
+          "labels": [
+            "1970",
+            "2000",
+            "2026"
+          ],
+          "image": "Top: a solid wood toolbox with metal corners. Middle: a plastic toolbox. Bottom: a tiny thin cheap plastic case."
+        },
+        {
+          "labels": [
+            "1975",
+            "2005",
+            "2026"
+          ],
+          "image": "Top: a thick wool coat with heavy buttons. Middle: a polyester jacket. Bottom: a thin cheap shiny raincoat."
+        }
+      ],
+      "end": {
+        "variant": "paper",
+        "text": "Confia em mim: você vai aprender muita coisa aqui. Então segue."
+      },
+      "caption": "As coisas ficaram mais fáceis de comprar e mais fáceis de quebrar. 🔧\n\nQual dessas ainda tem na casa dos seus pais?"
+    },
+    {
+      "id": "309-bichos-leao",
+      "format": "bichos",
+      "visual": "Rich detailed vintage storybook illustration with anthropomorphic animals wearing clothes, warm golden and green tones, oil painting texture.",
+      "cover": {
+        "text": "Em qual dessas você está?",
+        "style": "serif",
+        "image": "An anthropomorphic lion in an old tweed suit reading a newspaper calmly on a park bench while a nervous chihuahua in a tiny jacket barks at him, vintage illustration, warm background, empty space at the top."
+      },
+      "slides": [
+        {
+          "title": "O leão não perde o sono com a opinião das ovelhas.",
+          "image": "A calm lion sleeping peacefully under a tree while a group of sheep gossip and point at him."
+        },
+        {
+          "title": "",
+          "bubbles": [
+            {
+              "text": "Por que você treina se ninguém está vendo?",
+              "x": 34,
+              "y": 14
+            },
+            {
+              "text": "Porque eu estou.",
+              "x": 68,
+              "y": 58
+            }
+          ],
+          "image": "A rabbit in a sweater leaning on a fence talking to a bear lifting heavy logs alone in a quiet forest clearing at dawn."
+        },
+        {
+          "title": "Quem planta hoje come amanhã.",
+          "image": "An old badger farmer planting seeds in the rain while young foxes play cards under a roof, laughing at him."
+        },
+        {
+          "title": "Nem toda briga merece a sua energia.",
+          "image": "An eagle flying high above the clouds while crows argue and fight on a fence below."
+        },
+        {
+          "title": "Cada um carrega o peso que escolheu.",
+          "image": "Two donkeys on a mountain path: one carrying a heavy pile of other animals' bags, the other carrying only a small tool bag and walking freely."
+        }
+      ],
+      "end": {
+        "variant": "teacher",
+        "text": "Aqui você aprende o que a escola não ensina.\nSiga a página!",
+        "image": "An anthropomorphic old owl professor in a brown suit and glasses pointing with a stick, standing at the right side of an old classroom with a large blank chalkboard on the left, vintage illustration."
+      },
+      "caption": "Os bichos explicam a vida melhor do que muito curso por aí. 🦁\n\nQual dessas é mais real pra você?"
+    },
+    {
+      "id": "310-maturidade-dinheiro",
+      "format": "maturidade",
+      "visual": "Cinematic hyper-realistic photography, dramatic moody lighting, warm golden and dark contrast, film still.",
+      "cover": {
+        "text": "Verdades sobre dinheiro que ninguém te conta",
+        "style": "condensed",
+        "image": "A terrifying giant black demon dog with glowing yellow eyes and a golden coin in its teeth standing in a dark stormy desert, epic dark fantasy painting."
+      },
+      "slides": [
+        {
+          "text": "Quem ganha muito e gasta tudo é pobre com salário alto.",
+          "image": "A man in a fancy suit checking an empty wallet next to a luxury car at night."
+        },
+        {
+          "text": "Parcelar é pagar caro pra fingir que pode.",
+          "image": "A man surrounded by many shopping bags in a dark room, a pile of bills on the table."
+        },
+        {
+          "text": "Ninguém fica rico guardando o que sobra. Guarde primeiro, gaste o que sobra.",
+          "image": "A hand putting a coin into an old glass jar on a kitchen table at sunrise."
+        },
+        {
+          "text": "Dinheiro não muda ninguém. Só mostra quem a pessoa já era.",
+          "image": "A man looking at his reflection in a puddle on a rainy street, the reflection wearing a crown."
+        },
+        {
+          "text": "Antes de investir em ações, invista em você.",
+          "image": "A young man reading a stack of books at night in a small room with a single lamp."
+        },
+        {
+          "text": "Quem empresta pra todo mundo acaba sem dinheiro e sem amigos.",
+          "image": "A man sitting alone at a long dinner table with empty plates and empty chairs."
+        },
+        {
+          "text": "O primeiro milhão é o mais difícil. O primeiro mil também.",
+          "image": "Rough working hands counting a small stack of cash on a worn wooden table."
+        }
+      ],
+      "end": {
+        "variant": "grey",
+        "text": "Seja bem-vindo, irmão.\nEssa página é pra você."
+      },
+      "caption": "Dinheiro é ferramenta. Quem não aprende a usar, vira ferramenta dele. 💰\n\nQual dessas você aprendeu do jeito difícil?"
+    },
+    {
+      "id": "311-frases-estoicos",
+      "format": "frases",
+      "visual": "Classical marble statues and ancient Roman ruins, dramatic chiaroscuro light, warm sunset and deep shadows, cinematic.",
+      "cover": {
+        "text": "Frases de 2.000 anos que parecem escritas pra você hoje",
+        "image": "A cracked ancient marble bust of a bearded philosopher with glowing golden light coming out of the cracks, dark background, cinematic."
+      },
+      "slides": [
+        {
+          "text": "\"Sofremos mais na imaginação do que na realidade.\"\n— Sêneca",
+          "image": "A marble statue of a man sitting with his head in his hands in a dark ancient hall."
+        },
+        {
+          "text": "\"Você tem poder sobre a sua mente, não sobre os acontecimentos.\"\n— Marco Aurélio",
+          "image": "A marble statue standing still in the middle of a storm, rain and lightning around it."
+        },
+        {
+          "text": "\"Não é o que acontece com você, mas como você reage, que importa.\"\n— Epicteto",
+          "image": "A lone Roman column standing intact among ruins at sunset."
+        },
+        {
+          "text": "\"A melhor vingança é não ser como o seu inimigo.\"\n— Marco Aurélio",
+          "image": "Two marble statues facing each other, one cracked and broken, the other intact and calm."
+        },
+        {
+          "text": "\"Enquanto adiamos, a vida passa.\"\n— Sêneca",
+          "image": "An ancient sundial in a ruined garden with long shadows at dusk."
+        },
+        {
+          "text": "\"Primeiro diga a si mesmo o que você quer ser. Depois faça o que tem que fazer.\"\n— Epicteto",
+          "image": "A marble statue of a man climbing ancient stone stairs toward a bright light."
+        }
+      ],
+      "end": {
+        "variant": "image",
+        "text": "Se você não seguir agora, provavelmente nunca mais vai ver essa página.",
+        "image": "Ancient Roman ruins at night under a huge starry sky, a single torch burning."
+      },
+      "caption": "Os estoicos já sabiam há 2.000 anos o que a gente ainda está aprendendo. 🏛️\n\nQual dessas vai pro seu status?"
+    },
+    {
+      "id": "312-fe-pai",
+      "format": "status",
+      "visual": "Warm cinematic photography, golden hour, soft film grain, emotional and nostalgic.",
+      "slides": [
+        {
+          "kind": "bubbles",
+          "title": "",
+          "bubbles": [
+            {
+              "text": "Pai, você nunca cansa?",
+              "x": 30,
+              "y": 16
+            },
+            {
+              "text": "Canso, filho. Mas eu amo vocês mais do que o cansaço.",
+              "x": 66,
+              "y": 56
+            }
+          ],
+          "image": "A tired father in dirty work clothes sitting on the front steps of a simple house at sunset while his small son sits next to him looking up at him."
+        },
+        {
+          "kind": "verse",
+          "ref": "Provérbios 20:7 | NVI",
+          "text": "O justo leva uma vida íntegra; como são felizes os seus filhos depois dele!"
+        },
+        {
+          "text": "Ele não falava \"eu te amo\".\nEle acordava às 5h todo dia.",
+          "image": "A man in work boots leaving a small house before sunrise, lunch box in hand, street lamps still on."
+        }
+      ],
+      "end": {
+        "variant": "grey",
+        "text": "Seja bem-vindo, irmão.\nEssa página é pra você."
+      },
+      "caption": "Marca um pai que nunca reclamou. ❤️"
+    },
+    {
+      "id": "313-lista-nunca-conte",
+      "format": "lista",
+      "visual": "Surreal dreamlike digital painting in deep purple and black tones with glowing particles, faces partly dissolving into smoke and stars.",
+      "cover": {
+        "text": "5 coisas que um homem nunca deve contar pra ninguém",
+        "image": "Hyper-realistic portrait of a creepy old woman with a crooked smile, one milky white eye and a finger on her lips, staring at the viewer, dark purple background, unsettling."
+      },
+      "slides": [
+        {
+          "text": "1. Quanto você ganha.",
+          "image": "A man holding a glowing purple safe close to his chest in a dark crowd."
+        },
+        {
+          "text": "2. Os seus planos antes de acontecerem.",
+          "image": "A man whispering a glowing seed into his own hands, purple smoke around."
+        },
+        {
+          "text": "3. Os problemas do seu relacionamento.",
+          "image": "A couple's silhouettes inside a glass house while shadow figures press their faces against the walls."
+        },
+        {
+          "text": "4. As suas fraquezas.",
+          "image": "A knight in dark armor with a small glowing crack on his chest, covering it with his hand."
+        },
+        {
+          "text": "5. O bem que você fez pros outros.",
+          "image": "A man walking away from a glowing purple gift left on a doorstep at night."
+        }
+      ],
+      "end": {
+        "variant": "image",
+        "text": "Se você não seguir esta página agora, talvez ela nunca mais apareça pra você.",
+        "image": "A giant purple moon with a sleeping human face floating over dark mountains, surreal."
+      },
+      "caption": "Nem tudo precisa ser dito. Algumas coisas só funcionam em silêncio. 🤫\n\nQual dessas você aprendeu tarde demais?"
+    },
+    {
+      "id": "314-duo-mostra",
+      "format": "duo",
+      "visual": "Cinematic photography, natural light, realistic, film grain.",
+      "slides": [
+        {
+          "top": "O que todo mundo vê:",
+          "bottom": "O que ninguém vê:",
+          "labelStyle": "sentence",
+          "imageTop": "A smiling man posing with a medal at the finish line of a marathon, crowd cheering.",
+          "imageBottom": "The same man running alone in the dark rain at 5am on an empty road."
+        },
+        {
+          "top": "O que todo mundo vê:",
+          "bottom": "O que ninguém vê:",
+          "labelStyle": "sentence",
+          "imageTop": "A man in a suit cutting the ribbon at the opening of his small restaurant, people clapping.",
+          "imageBottom": "The same man asleep on a sack of flour in an empty kitchen at night, exhausted."
+        },
+        {
+          "top": "O que todo mundo vê:",
+          "bottom": "O que ninguém vê:",
+          "labelStyle": "sentence",
+          "imageTop": "A muscular man flexing on a sunny beach, people looking.",
+          "imageBottom": "The same man eating plain rice and chicken alone from a container at 6am."
+        },
+        {
+          "top": "O que todo mundo vê:",
+          "bottom": "O que ninguém vê:",
+          "labelStyle": "sentence",
+          "imageTop": "A young man receiving his diploma on a stage, family cheering.",
+          "imageBottom": "The same young man studying on a bus at night after work, tired."
+        },
+        {
+          "top": "O que todo mundo vê:",
+          "bottom": "O que ninguém vê:",
+          "labelStyle": "sentence",
+          "imageTop": "A father laughing with his kids at a birthday party.",
+          "imageBottom": "The same father alone in the car in a parking lot, head on the steering wheel."
+        }
+      ],
+      "end": {
+        "variant": "thanks",
+        "text": "Obrigado\npor chegar\naté aqui.",
+        "sub": "Se fez sentido,\nsiga a página."
+      },
+      "caption": "Ninguém aplaude o treino. Só o resultado. 👀\n\nO que as pessoas não sabem sobre você?"
+    },
+    {
+      "id": "315-historia-onoda",
+      "format": "historia",
+      "visual": "Grainy vintage documentary photograph style, faded 1970s color film, jungle, humid and somber. Never show identifiable faces; use figures from behind, silhouettes, hands and objects.",
+      "cover": {
+        "text": "Ele continuou lutando numa guerra que tinha acabado 29 anos antes",
+        "image": "Faded vintage photo of a dense tropical jungle with an old rusty rifle and a worn military cap lying on a rock, mysterious."
+      },
+      "slides": [
+        {
+          "text": "Em 1944, o tenente japonês Hiroo Onoda foi enviado pra ilha de Lubang, nas Filipinas.",
+          "image": "Vintage photo of a small island covered in jungle seen from a boat, grey sea."
+        },
+        {
+          "text": "A ordem era clara: nunca se render e nunca tirar a própria vida.",
+          "image": "Vintage close-up of a gloved hand holding a folded paper order."
+        },
+        {
+          "text": "Em 1945, a guerra acabou. Mas ele não acreditou.",
+          "image": "Old paper leaflets scattered on the jungle floor, faded and wet."
+        },
+        {
+          "text": "Panfletos, cartas e até a família tentaram avisar. Ele achava que era truque do inimigo.",
+          "image": "A figure seen from behind hiding in tall grass, watching a distant village."
+        },
+        {
+          "text": "Por 29 anos ele viveu escondido na selva, cumprindo a última ordem que recebeu.",
+          "image": "A worn uniform drying on a branch inside a dark jungle camp."
+        },
+        {
+          "text": "Em 1974, o seu antigo comandante viajou até a ilha e ordenou pessoalmente o fim da missão.",
+          "image": "Two silhouettes standing in a jungle clearing at sunset."
+        },
+        {
+          "text": "Só então ele entregou a espada.",
+          "image": "Vintage close-up of an old sword being handed over with both hands."
+        },
+        {
+          "text": "Lealdade é bonita. Mas pergunte sempre: a guerra que você luta ainda existe?",
+          "image": "An empty jungle path leading toward bright light."
+        }
+      ],
+      "end": {
+        "variant": "paper",
+        "text": "Histórias assim mudam vidas. Siga pra não perder as próximas."
+      },
+      "caption": "Hiroo Onoda lutou sozinho por 29 anos numa guerra que já tinha acabado. 🌿\n\nQuantas batalhas você ainda luta que já terminaram faz tempo?"
+    },
+    {
+      "id": "316-status-mulher",
+      "format": "status",
+      "visual": "Moody cinematic photography with warm amber night tones, city lights, soft film grain.",
+      "cover": {
+        "text": "Coloque isso no status e veja quem reage...",
+        "style": "serif",
+        "sub": "leia com atenção...",
+        "image": "A very beautiful woman with long wavy auburn hair in a tight black dress sitting at a dim bar counter looking at the camera with a mysterious half smile, warm amber light, cinematic portrait."
+      },
+      "slides": [
+        {
+          "text": "Eu não corro atrás.\nEu acompanho quem anda do meu lado.",
+          "image": "A man walking alone through a city at night under warm street lights."
+        },
+        {
+          "text": "Hoje eu prefiro paz\na ter razão.",
+          "image": "A man sitting on a balcony at night with a cup of tea looking at the city lights."
+        },
+        {
+          "text": "Valorize quem te procura\nsem precisar de motivo.",
+          "image": "Two old friends laughing on a street corner at night under neon light."
+        },
+        {
+          "text": "Não é sobre ter alguém.\nÉ sobre ter alguém que some com o seu cansaço.",
+          "image": "A couple sitting on the hood of a car looking at the city at night, her head on his shoulder."
+        },
+        {
+          "text": "Mudei. E não devo explicação\npra quem só me conheceu pela metade.",
+          "image": "A man looking at his reflection in a dark shop window, city lights behind him."
+        }
+      ],
+      "end": {
+        "variant": "grey",
+        "text": "Seja bem-vindo, irmão.\nEssa página é pra você."
+      },
+      "caption": "Posta e vê quem entende o recado. 👀\n\nQual dessas é a sua?"
+    },
+    {
+      "id": "317-meme-quando-ela",
+      "format": "meme",
+      "visual": "Soft realistic colored-pencil illustration with warm beige and light tones, textured paper look. Same character in every image: a fit man in his thirties, short brown hair, full beard, grey hoodie and black jeans.",
+      "slides": [
+        {
+          "top": "O chefe gritou com você?",
+          "bottom": "Respire. Responda depois.",
+          "imageTop": "The man in an office while a red-faced boss shouts at him.",
+          "imageBottom": "The man drinking water calmly by a window, eyes closed."
+        },
+        {
+          "top": "A conta não fechou esse mês?",
+          "bottom": "Corte. Ajuste. Recomece.",
+          "imageTop": "The man at a kitchen table at night looking at a pile of bills.",
+          "imageBottom": "The man writing a budget in a notebook with a calculator, focused."
+        },
+        {
+          "top": "Bateu a vontade de desistir?",
+          "bottom": "Faça só mais um dia.",
+          "imageTop": "The man sitting on the floor of his room, back against the bed, tired.",
+          "imageBottom": "The man tying his running shoes at the door at sunrise."
+        },
+        {
+          "top": "Ficou sozinho no sábado à noite?",
+          "bottom": "Construa o seu domingo.",
+          "imageTop": "The man alone on the sofa scrolling his phone while the TV is on.",
+          "imageBottom": "The man cooking a healthy meal and organizing his week on a board."
+        },
+        {
+          "top": "Te criticaram de novo?",
+          "bottom": "Melhore em silêncio.",
+          "imageTop": "Two people laughing behind the man's back at work.",
+          "imageBottom": "The man studying with headphones in a library, determined."
+        }
+      ],
+      "end": {
+        "variant": "paper",
+        "text": "Confia: essa página não vai aparecer de novo pra você. Segue logo."
+      },
+      "caption": "Não dá pra controlar o que acontece. Dá pra controlar o próximo passo. 🧠\n\nMarca quem precisa ler isso."
+    },
+    {
+      "id": "318-lista-psicologia",
+      "format": "lista",
+      "visual": "Clean surreal 3D illustration with teal and black tones, glowing particles, minimal and mysterious.",
+      "cover": {
+        "text": "7 truques de psicologia que funcionam de verdade",
+        "image": "Hyper-realistic portrait of a man with an unnaturally wide creepy smile and staring wide eyes, teal background, unsettling and funny."
+      },
+      "slides": [
+        {
+          "text": "1. Quer saber se alguém presta atenção em você? Boceje. Quem estiver ligado em você vai bocejar junto.",
+          "image": "Two figures made of teal light, one yawning and the other copying him."
+        },
+        {
+          "text": "2. Fique em silêncio depois de uma resposta vaga. A pessoa vai completar e falar mais.",
+          "image": "A man sitting calmly in silence while teal words pour out of the mouth of the person in front of him."
+        },
+        {
+          "text": "3. Chame as pessoas pelo nome. É o som que elas mais gostam de ouvir.",
+          "image": "A glowing teal name floating between two people shaking hands."
+        },
+        {
+          "text": "4. Quer que alguém concorde? Balance a cabeça devagar enquanto fala.",
+          "image": "A man nodding slowly in front of a small crowd that nods with him."
+        },
+        {
+          "text": "5. Peça um pequeno favor a quem não gosta de você. Ela tende a gostar mais de você depois.",
+          "image": "A man handing a pen to a grumpy man who reluctantly takes it, teal light between them."
+        },
+        {
+          "text": "6. Olhe nos olhos por um segundo a mais. Você passa confiança.",
+          "image": "Close-up of a man's eyes glowing faintly teal, calm and confident."
+        },
+        {
+          "text": "7. Na discussão, fale mais baixo. Quem grita parece estar perdendo.",
+          "image": "Two men arguing: one shouting with red sparks, the other speaking softly surrounded by calm teal light."
+        }
+      ],
+      "end": {
+        "variant": "image",
+        "text": "Se você não seguir esta página agora, talvez ela nunca mais apareça pra você.",
+        "image": "A giant teal moon with a winking human face over a dark city, surreal."
+      },
+      "caption": "Psicologia não é manipulação. É entender as pessoas. 🧠\n\nQual desses você vai testar primeiro?"
+    },
+    {
+      "id": "319-bichos-formiga",
+      "format": "bichos",
+      "visual": "Rich detailed vintage storybook illustration with anthropomorphic animals wearing clothes, warm autumn orange and brown tones, oil painting texture.",
+      "cover": {
+        "text": "Qual desses bichos é você?",
+        "style": "serif",
+        "image": "An anthropomorphic tired ant in overalls carrying a huge sack next to a relaxed grasshopper in sunglasses lying in a hammock, vintage illustration, warm autumn background, empty space at the top."
+      },
+      "slides": [
+        {
+          "title": "No inverno, todo mundo descobre quem trabalhou no verão.",
+          "image": "A snowy forest: a family of ants warm and eating inside a cozy lit burrow while a cold grasshopper knocks on the door outside."
+        },
+        {
+          "title": "",
+          "bubbles": [
+            {
+              "text": "Você vai demorar demais desse jeito.",
+              "x": 32,
+              "y": 14
+            },
+            {
+              "text": "Mas eu não vou parar.",
+              "x": 70,
+              "y": 60
+            }
+          ],
+          "image": "A fast hare in a racing jacket talking to a slow old turtle walking steadily on a long country road."
+        },
+        {
+          "title": "Quem anda com porcos acaba na lama.",
+          "image": "A young sheep in a clean coat walking toward a group of pigs rolling in a muddy pen, laughing."
+        },
+        {
+          "title": "Cada um enxerga do tamanho da própria janela.",
+          "image": "A frog in a waistcoat sitting at the bottom of a well looking at a tiny circle of sky, convinced it is the whole world."
+        },
+        {
+          "title": "Aprenda com quem já chegou lá.",
+          "image": "An old mountain goat guiding a group of young goats up a steep cliff path at sunrise."
+        }
+      ],
+      "end": {
+        "variant": "teacher",
+        "text": "Você vai aprender muita coisa valiosa aqui.\nSiga a página!",
+        "image": "An anthropomorphic old tortoise professor in a brown suit and glasses pointing with a stick, standing at the right side of an old classroom with a large blank chalkboard on the left, vintage illustration."
+      },
+      "caption": "As fábulas eram pra crianças. As lições são pra adultos. 🐜\n\nVocê é a formiga ou o gafanhoto?"
+    },
+    {
+      "id": "320-maturidade-amizade",
+      "format": "maturidade",
+      "visual": "Cinematic hyper-realistic photography, dramatic moody lighting, blue and orange contrast, film still.",
+      "cover": {
+        "text": "Você aguenta ler isso sem se ofender?",
+        "style": "condensed",
+        "image": "A giant terrifying ancient stone golem with glowing orange cracks rising from a dark lake at night, fog, epic dark fantasy painting."
+      },
+      "slides": [
+        {
+          "text": "Amigo de verdade fala o que você precisa ouvir, não o que você quer ouvir.",
+          "image": "Two men talking seriously on a bench by a river at dusk."
+        },
+        {
+          "text": "Quem some quando você está mal não merece aparecer quando você está bem.",
+          "image": "A man celebrating alone on a rooftop at night, fireworks in the distance."
+        },
+        {
+          "text": "Cuidado com quem fala mal de todo mundo pra você.",
+          "image": "Two men whispering in a dark corridor, one glancing back suspiciously."
+        },
+        {
+          "text": "Não é a quantidade de amigos. É quem atende às 3h da manhã.",
+          "image": "A phone ringing on a nightstand at 3am, a hand reaching for it in the dark."
+        },
+        {
+          "text": "Às vezes o problema não é o mundo. É a roda em que você está.",
+          "image": "A man walking away from a loud group of friends drinking around a fire at night."
+        },
+        {
+          "text": "Inveja disfarçada de conselho ainda é inveja.",
+          "image": "A man smiling politely while his friend's shadow on the wall looks like a monster."
+        },
+        {
+          "text": "Ande com quem te faz querer ser melhor.",
+          "image": "Two men running together up a hill at sunrise, pushing each other."
+        }
+      ],
+      "end": {
+        "variant": "grey",
+        "text": "Seja bem-vindo, irmão.\nEssa página é pra você."
+      },
+      "caption": "Diz com quem andas que eu te digo quem és. 🤝\n\nMarca o amigo que atende às 3h da manhã."
+    },
+    {
+      "id": "321-nokia-coisas-30",
+      "format": "nokia",
+      "cover": {
+        "text": "Coisas que eu queria ter ouvido antes dos 30...",
+        "style": "serif",
+        "image": "A man in his thirties with a huge thick unibrow and messy hair making a shocked face at the camera while holding a tiny birthday cake with one candle, harsh flash photo, funny."
+      },
+      "slides": [
+        {
+          "text": "Ninguém está pensando em você\ntanto quanto você imagina.\nIsso é libertador."
+        },
+        {
+          "text": "Cuide dos dentes, da coluna e do sono.\nVocê vai precisar deles por muito tempo."
+        },
+        {
+          "text": "A maioria dos seus problemas\nse resolve com:\ndormir, beber água e treinar."
+        },
+        {
+          "text": "Não espere motivação.\nCrie disciplina.\nMotivação vai embora. Hábito fica."
+        },
+        {
+          "text": "Ligue mais pros seus pais.\nO tempo deles é mais curto que o seu."
+        },
+        {
+          "text": "Você não precisa de mais tempo.\nPrecisa de menos tela."
+        }
+      ],
+      "end": {
+        "variant": "paper",
+        "text": "Vai por mim: essa página não vai aparecer de novo pra você. Segue logo."
+      },
+      "caption": "Se eu soubesse disso antes, teria economizado uns 10 anos. ⏳\n\nQual você queria ter ouvido mais cedo?"
+    },
+    {
+      "id": "322-imagens-sociedade",
+      "format": "imagens",
+      "visual": "Detailed satirical surreal illustration style, muted vintage colors, symbolic and metaphorical scenes, thought-provoking.",
+      "cover": {
+        "text": "7 imagens que mostram o mundo de hoje",
+        "image": "Surreal image of a man with a smartphone instead of a head walking a dog that also has a smartphone instead of a head, grey city street, satirical illustration."
+      },
+      "slides": [
+        {
+          "text": "",
+          "image": "A crowd at a beautiful sunset all holding up phones to film it, nobody actually looking, while one old man sits watching with his own eyes."
+        },
+        {
+          "text": "",
+          "image": "A man chained to his office desk with a golden chain, holding the key in his own hand without noticing."
+        },
+        {
+          "text": "",
+          "image": "A family at a dinner table, each person inside their own glass bubble looking at a phone."
+        },
+        {
+          "text": "",
+          "image": "A man pulling a heavy cart full of credit cards and shopping bags up a hill."
+        },
+        {
+          "text": "",
+          "image": "A long line of people waiting to enter a giant smartphone like a temple."
+        },
+        {
+          "text": "",
+          "image": "An old couple holding hands on a bench while young people around them swipe dating apps."
+        },
+        {
+          "text": "",
+          "image": "A man running on a treadmill toward a carrot hanging from a stick attached to his own head, the carrot is a money bill."
+        }
+      ],
+      "captions": [
+        "Gravamos tudo e não vivemos nada.",
+        "A prisão mais cara é a que a gente aceita.",
+        "Juntos na mesma mesa, sozinhos na mesma casa.",
+        "Comprar o que não precisa com o dinheiro que não tem.",
+        "A nova religião cabe no bolso.",
+        "Eles consertavam. A gente troca.",
+        "Correndo a vida inteira atrás do que nunca chega."
+      ],
+      "end": {
+        "variant": "image",
+        "text": "Se você chegou até aqui, essa página é pra você. Siga antes que ela suma do seu feed.",
+        "image": "A man walking alone toward a bright green field away from a grey crowded city, surreal illustration."
+      },
+      "caption": "Às vezes uma imagem incomoda mais do que mil palavras. 🖼️\n\nQual delas é mais real?"
+    },
+    {
+      "id": "323-frases-famosas",
+      "format": "frases",
+      "visual": "Moody black and white cinematic photography, high contrast, film grain, minimal and elegant.",
+      "cover": {
+        "text": "Frases que mudaram a vida de muita gente",
+        "image": "Black and white close-up of an old man's weathered face with deep wrinkles and intense eyes looking straight at the viewer, dramatic light, powerful."
+      },
+      "slides": [
+        {
+          "text": "\"Disciplina é a ponte entre metas e conquistas.\"\n— Jim Rohn",
+          "image": "Black and white image of an old stone bridge over a misty river at dawn."
+        },
+        {
+          "text": "\"Quem tem um porquê enfrenta qualquer como.\"\n— Friedrich Nietzsche",
+          "image": "Black and white image of a man climbing a steep snowy mountain alone."
+        },
+        {
+          "text": "\"Não é o crítico que conta. O mérito é de quem está na arena.\"\n— Theodore Roosevelt",
+          "image": "Black and white image of a boxer on the floor of an empty arena getting up."
+        },
+        {
+          "text": "\"A vida é 10% o que acontece com você e 90% como você reage.\"\n— Charles Swindoll",
+          "image": "Black and white image of a man standing calm in the middle of a busy crowd in motion blur."
+        },
+        {
+          "text": "\"Se você está atravessando o inferno, continue andando.\"\n— Winston Churchill",
+          "image": "Black and white image of a man walking through thick smoke on a ruined street."
+        },
+        {
+          "text": "\"Faça o que puder, com o que tiver, onde estiver.\"\n— Theodore Roosevelt",
+          "image": "Black and white image of rough hands building a small wooden house."
+        }
+      ],
+      "end": {
+        "variant": "image",
+        "text": "Se você não seguir agora, provavelmente nunca mais vai ver essa página.",
+        "image": "Black and white image of a lone lighthouse in a stormy sea at night."
+      },
+      "caption": "Salva e volta aqui quando precisar de força. 🖤\n\nQual dessas é a sua favorita?"
+    },
+    {
+      "id": "324-duo-caps-celular",
+      "format": "duo",
+      "visual": "Cinematic photorealistic photography, dramatic lighting, high detail, same framing in both images of each pair.",
+      "slides": [
+        {
+          "top": "COM CELULAR",
+          "bottom": "SEM CELULAR",
+          "imageTop": "A man lying in bed at 2am, face lit by a phone screen, dark room.",
+          "imageBottom": "A man waking up rested at sunrise, opening the window, birds outside."
+        },
+        {
+          "top": "COM CELULAR",
+          "bottom": "SEM CELULAR",
+          "imageTop": "A father on the sofa looking at his phone while his son plays alone with a ball.",
+          "imageBottom": "The same father playing football with his son in the backyard, laughing."
+        },
+        {
+          "top": "COM CELULAR",
+          "bottom": "SEM CELULAR",
+          "imageTop": "A man at a gym bench scrolling his phone between sets for a long time.",
+          "imageBottom": "A man training hard with full focus, sweat, no phone in sight."
+        },
+        {
+          "top": "COM CELULAR",
+          "bottom": "SEM CELULAR",
+          "imageTop": "A couple at a restaurant both looking at their phones, bored.",
+          "imageBottom": "The same couple laughing and talking face to face at the table."
+        },
+        {
+          "top": "COM CELULAR",
+          "bottom": "SEM CELULAR",
+          "imageTop": "A man at a desk with a book open but staring at his phone.",
+          "imageBottom": "The same man deep in reading the book, notes beside him."
+        }
+      ],
+      "end": {
+        "variant": "thanks",
+        "text": "Obrigado\npor chegar\naté aqui.",
+        "sub": "Se fez sentido,\nsiga a página."
+      },
+      "caption": "O celular não rouba só o seu tempo. Rouba a sua vida. 📵\n\nQuantas horas de tela você teve ontem?"
+    },
+    {
+      "id": "325-historia-kintsugi",
+      "format": "historia",
+      "visual": "Elegant Japanese aesthetic photography, soft natural light, dark wood, ceramics, gold details, calm and contemplative.",
+      "cover": {
+        "text": "Os japoneses consertam o que quebrou com ouro. O motivo é lindo",
+        "image": "A dark ceramic bowl broken and repaired with shining gold lines on a dark wooden table, soft window light, beautiful."
+      },
+      "slides": [
+        {
+          "text": "No Japão existe uma arte chamada kintsugi.",
+          "image": "An old Japanese workshop with ceramics on wooden shelves, soft light."
+        },
+        {
+          "text": "Quando uma peça de cerâmica quebra, ela não vai pro lixo.",
+          "image": "Pieces of a broken ceramic bowl on a wooden floor."
+        },
+        {
+          "text": "Os pedaços são colados com uma laca misturada com pó de ouro.",
+          "image": "Close-up of hands applying golden lacquer to a crack with a fine brush."
+        },
+        {
+          "text": "As rachaduras não são escondidas. Elas ficam em destaque.",
+          "image": "A repaired bowl with bright gold lines catching the light."
+        },
+        {
+          "text": "A ideia é que a história da peça faz parte da sua beleza.",
+          "image": "A shelf of many repaired ceramics with gold veins, each one unique."
+        },
+        {
+          "text": "E muitas vezes a peça consertada passa a valer mais do que valia antes.",
+          "image": "An elegant golden-repaired vase displayed alone on a pedestal with a spotlight."
+        },
+        {
+          "text": "Com você é igual. As suas cicatrizes contam a sua história. Não esconda o que te fez forte.",
+          "image": "A man's scarred hands holding a gold-repaired bowl gently."
+        }
+      ],
+      "end": {
+        "variant": "paper",
+        "text": "Histórias assim mudam vidas. Siga pra não perder as próximas."
+      },
+      "caption": "O que te quebrou também pode ser o que te torna único. ✨\n\nManda pra alguém que está se reconstruindo."
+    },
+    {
+      "id": "326-anos-casa",
+      "format": "anos",
+      "visual": "Clean product photography on a warm wooden table, soft studio light, three versions of the same object stacked vertically (top, middle, bottom), each version clearly cheaper and worse than the one above. No brand names or logos.",
+      "cover": {
+        "text": "Antigamente as coisas duravam a vida inteira.",
+        "style": "condensed",
+        "image": "Three versions of a classic table lamp stacked on a wooden table: the top one heavy brass with glass shade, the middle one simpler, the bottom one a tiny flimsy plastic lamp, warm light, slightly funny."
+      },
+      "slides": [
+        {
+          "labels": [
+            "1970",
+            "2000",
+            "2026"
+          ],
+          "image": "Top: a heavy enamel cast iron cooking pot. Middle: a stainless steel pot. Bottom: a thin dented cheap aluminum pot."
+        },
+        {
+          "labels": [
+            "1975",
+            "2005",
+            "2026"
+          ],
+          "image": "Top: a solid wooden radio with fabric speaker and knobs. Middle: a plastic radio. Bottom: a tiny cheap plastic radio toy."
+        },
+        {
+          "labels": [
+            "1980",
+            "2005",
+            "2026"
+          ],
+          "image": "Top: a thick hardcover leather notebook. Middle: a regular spiral notebook. Bottom: a thin flimsy notepad with few pages."
+        },
+        {
+          "labels": [
+            "1970",
+            "2000",
+            "2026"
+          ],
+          "image": "Top: a heavy steel padlock with brass body. Middle: a smaller padlock. Bottom: a tiny cheap toy padlock."
+        },
+        {
+          "labels": [
+            "1975",
+            "2005",
+            "2026"
+          ],
+          "image": "Top: a solid glass milk bottle. Middle: a plastic milk jug. Bottom: a thin crumpled cheap plastic bag of milk."
+        },
+        {
+          "labels": [
+            "1970",
+            "2000",
+            "2026"
+          ],
+          "image": "Top: a sturdy wooden rocking chair. Middle: a simple plastic chair. Bottom: a tiny wobbly cheap folding stool."
+        }
+      ],
+      "end": {
+        "variant": "paper",
+        "text": "Confia em mim: você vai aprender muita coisa aqui. Então segue."
+      },
+      "caption": "Antes se comprava uma vez. Hoje se compra todo ano. 🏠\n\nQual dessas a sua avó ainda tem?"
+    },
+    {
+      "id": "327-nokia-casamento",
+      "format": "nokia",
+      "cover": {
+        "text": "Conselhos de quem está casado há 50 anos...",
+        "style": "serif",
+        "image": "A very old couple sitting on a sofa making exaggerated suspicious faces at each other, both with huge round glasses and colorful knitted sweaters, harsh flash photo, funny."
+      },
+      "slides": [
+        {
+          "text": "Brigue com o problema.\nNunca com a pessoa."
+        },
+        {
+          "text": "Elogie em público.\nCorrija em particular."
+        },
+        {
+          "text": "Não compare o seu casamento\ncom o que você vê na internet.\nLá ninguém posta a louça suja."
+        },
+        {
+          "text": "Amor é decisão.\nTem dia que é sentimento.\nTodo dia é escolha."
+        },
+        {
+          "text": "Continue namorando\ndepois que casar."
+        },
+        {
+          "text": "Não deixe a sua mãe\nnem a dela\nmandarem na sua casa."
+        }
+      ],
+      "end": {
+        "variant": "paper",
+        "text": "Vai por mim: essa página não vai aparecer de novo pra você. Segue logo."
+      },
+      "caption": "50 anos juntos não é sorte. É escolha todo dia. 💍\n\nMarca quem você quer do seu lado por 50 anos."
+    },
+    {
+      "id": "328-status-fe-luta",
+      "format": "status",
+      "visual": "Epic cinematic painting, dramatic sky, warm golden light breaking through dark clouds.",
+      "slides": [
+        {
+          "kind": "bubbles",
+          "title": "",
+          "bubbles": [
+            {
+              "text": "Senhor, por que tanta luta?",
+              "x": 34,
+              "y": 14
+            },
+            {
+              "text": "Porque eu estou te preparando.",
+              "x": 66,
+              "y": 58
+            }
+          ],
+          "image": "A lone man kneeling on a mountain top in the rain looking up at golden light breaking through dark storm clouds."
+        },
+        {
+          "kind": "verse",
+          "ref": "Tiago 1:12 | NVI",
+          "text": "Feliz é o homem que persevera na provação, porque depois de aprovado receberá a coroa da vida, que Deus prometeu aos que o amam."
+        },
+        {
+          "text": "Deus não te dá o peso\nque você não aguenta carregar.",
+          "image": "A man carrying a heavy wooden beam on his shoulder up a dirt road toward a sunrise."
+        }
+      ],
+      "end": {
+        "variant": "grey",
+        "text": "Seja bem-vindo, irmão.\nEssa página é pra você."
+      },
+      "caption": "A luta de hoje é a força de amanhã. 🙏\n\nDigita \"amém\" se você está passando por uma prova."
     }
   ]
 }
